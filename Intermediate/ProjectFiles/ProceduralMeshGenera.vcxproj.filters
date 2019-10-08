@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProceduralMeshGenera.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5FB843AA-0817-4E17-83A8-DF4E054E632E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProceduralMeshGenera.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProceduralMeshGeneraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F9455B87-9B68-403D-AFCD-36FEF3E174FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{1B2858C2-743C-4406-8A4D-C884DDAEBA40}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{AC5519E3-EEDC-4DEB-B63E-B4A6CB1E26FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{90BE2003-4BE9-4797-9B16-B02B863977C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{B90C6592-5CE9-4AEB-83BC-701B27CC1559}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{EA6B3472-D7A2-405B-9C2A-29821FCA3A72}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{AB316AF3-082E-4DEA-A3AF-3B2704789423}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{6AEBC1AB-6F4D-4C12-B3DB-8812B7B71C12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{D8E28071-03C0-42D2-9131-8B3EBD97A41B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\ProceduralMeshGenera">
+      <UniqueIdentifier>{C0691C60-2B2B-4901-91CB-F4FEBAF64C0E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.Build.cs">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGeneraGameModeBase.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGeneraGameModeBase.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

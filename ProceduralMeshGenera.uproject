@@ -4,14 +4,14 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-		{
-			"Name": "ProceduralMeshGenera",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
+        {
+            "Name": "ProceduralMeshGenera",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
             "AdditionalDependencies": [
                 "Engine",
                 "ProceduralMeshComponent"
             ]
-		}
+        }
 	]
 }
