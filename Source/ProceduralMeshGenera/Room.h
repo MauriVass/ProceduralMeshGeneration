@@ -18,7 +18,7 @@ public:
 	// Sets default values for this actor's properties
 	ARoom();
 
-	UStaticMeshComponent* room;
+	USceneComponent* room;
 
 protected:
 	// Called when the game starts or when spawned
