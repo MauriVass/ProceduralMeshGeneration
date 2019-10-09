@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
 #include "Chair.h"
 #include "Table.h"
 #include "Room.generated.h"
@@ -18,7 +19,10 @@ public:
 	// Sets default values for this actor's properties
 	ARoom();
 
-	USceneComponent* room;
+	//USceneComponent* room;
+	UBoxComponent* room;
+
+	void Deactive(bool value);
 
 protected:
 	// Called when the game starts or when spawned

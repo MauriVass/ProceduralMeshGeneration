@@ -24,7 +24,7 @@ protected:
 	USceneComponent* player;
 	UCameraComponent* camera;
 
-	TArray<ARoom*> rooms;
+	TArray<ARoom*> rooms, deactiveRooms;
 	ARoom* selectedRoom;
 
 	void SpawnRoom(UWorld * world, FVector position);
@@ -34,10 +34,18 @@ protected:
 	void MoveRight(float value);
 	void MoveUp(float value);
 
+	FVector rotation;
+	void RotateUp(float value);
+	void RotateRight(float value);
+
 	void AddRoom();
 	void RemoveRoom();
 
 	void ScaleRoom();
+
+	int32 x, y, z, distance, maxforRow;
+
+	void SelectRoom();
 
 public:	
 	// Called every frame

@@ -8,8 +8,11 @@ ARoom::ARoom()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	room = CreateDefaultSubobject<USceneComponent>(TEXT("Room"));
+	//room = CreateDefaultSubobject<USceneComponent>(TEXT("Room"));
+	room = CreateDefaultSubobject<UBoxComponent>(TEXT("Room"));
 	RootComponent = room;
+
+	room->SetBoundsScale(10000);
 
 	chairs = TArray<AChair*>();
 }
@@ -55,6 +58,10 @@ void ARoom::CreateSetofChairs(UWorld* world, AActor* actorParent) {
 		tmp->SetActorLabel(*name);
 		chairs.Add(tmp);
 	}
+}
+
+void ARoom::Deactive(bool value) {
+	room->SetHiddenInGame(value, true);
 }
 
 // Called every frame

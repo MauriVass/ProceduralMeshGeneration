@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProceduralMeshGenera.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5FB843AA-0817-4E17-83A8-DF4E054E632E}</UniqueIdentifier>
+      <UniqueIdentifier>{0FAB3E7E-5553-4C1B-A66B-0B94B5B535F8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProceduralMeshGenera.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\ProceduralMeshGeneraEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F9455B87-9B68-403D-AFCD-36FEF3E174FF}</UniqueIdentifier>
+      <UniqueIdentifier>{A25658B4-2CC5-4872-8F1A-D485EC8783C9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,56 +25,74 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Android">
-      <UniqueIdentifier>{1B2858C2-743C-4406-8A4D-C884DDAEBA40}</UniqueIdentifier>
+      <UniqueIdentifier>{B20B0BBD-DCD9-4205-881D-7BEE4E6A7F12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Android\AndroidEngine.ini">
       <Filter>Config\Android</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{AC5519E3-EEDC-4DEB-B63E-B4A6CB1E26FC}</UniqueIdentifier>
+      <UniqueIdentifier>{58FA2329-D6A3-4FCB-A0A7-524FCF4CD0A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{90BE2003-4BE9-4797-9B16-B02B863977C3}</UniqueIdentifier>
+      <UniqueIdentifier>{EB17B469-1B8C-4B9B-89F1-C2CEBE1EDACE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{B90C6592-5CE9-4AEB-83BC-701B27CC1559}</UniqueIdentifier>
+      <UniqueIdentifier>{A5157B56-3937-4764-8ED4-7E994B81B10D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\PS4">
-      <UniqueIdentifier>{EA6B3472-D7A2-405B-9C2A-29821FCA3A72}</UniqueIdentifier>
+      <UniqueIdentifier>{3DD11BA8-9F36-432F-A8F9-1CB893CC29E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\PS4\PS4Engine.ini">
       <Filter>Config\PS4</Filter>
     </None>
     <Filter Include="Config\Switch">
-      <UniqueIdentifier>{AB316AF3-082E-4DEA-A3AF-3B2704789423}</UniqueIdentifier>
+      <UniqueIdentifier>{F54D3089-BB6F-4EA3-98D0-3B2CFCAEB03F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Switch\SwitchEngine.ini">
       <Filter>Config\Switch</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{6AEBC1AB-6F4D-4C12-B3DB-8812B7B71C12}</UniqueIdentifier>
+      <UniqueIdentifier>{5E9E5257-FAAC-458B-B8A6-FDEAF258AC63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Config\XboxOne">
-      <UniqueIdentifier>{D8E28071-03C0-42D2-9131-8B3EBD97A41B}</UniqueIdentifier>
+      <UniqueIdentifier>{1D402998-FCF8-476A-9257-105AEDF3D7F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
       <Filter>Config\XboxOne</Filter>
     </None>
     <Filter Include="Source\ProceduralMeshGenera">
-      <UniqueIdentifier>{C0691C60-2B2B-4901-91CB-F4FEBAF64C0E}</UniqueIdentifier>
+      <UniqueIdentifier>{EA7121F2-CF2A-4AD4-8CBC-D1BA920A3764}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\BoxModel.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\BoxModel.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\Chair.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\Chair.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\CustomCamera.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\CustomCamera.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.Build.cs">
       <Filter>Source\ProceduralMeshGenera</Filter>
     </None>
@@ -87,6 +106,18 @@
       <Filter>Source\ProceduralMeshGenera</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGeneraGameModeBase.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\Room.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\Room.h">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\Table.cpp">
+      <Filter>Source\ProceduralMeshGenera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\Table.h">
       <Filter>Source\ProceduralMeshGenera</Filter>
     </ClInclude>
   </ItemGroup>
