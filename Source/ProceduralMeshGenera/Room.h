@@ -19,20 +19,25 @@ public:
 	// Sets default values for this actor's properties
 	ARoom();
 
-	//USceneComponent* room;
-	UBoxComponent* room;
+	USceneComponent* room;
 
-	void Deactive(bool value);
+	void Delete(bool value);
+	ATable* GetTable();
+	int32 GetChairWidth();
+	void CreateSetofChairs(UWorld* world, AActor* actorParent);
+	void SetChairsPosition(int32 pivot, float value);
+	void AddChairs(int32 pivot);
+	void RemoveChairs();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	int32 nextUpSpawn,nextDownSpawn;
 	TArray<AChair*> chairs;
 	ATable* table;
 
 	void CreateRoom(UWorld* world, AActor* actorParent);
-	void CreateSetofChairs(UWorld* world, AActor* actorParent);
 	
 public:	
 	// Called every frame

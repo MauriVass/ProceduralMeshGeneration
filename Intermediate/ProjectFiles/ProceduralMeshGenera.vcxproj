@@ -371,6 +371,7 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\Config\Android\AndroidEngine.ini"/>
     <None Include="..\..\Config\IOS\IOSEngine.ini"/>
     <None Include="..\..\Config\Linux\LinuxEngine.ini"/>
@@ -385,6 +386,8 @@
     <ClInclude Include="..\..\Source\ProceduralMeshGenera\Chair.h"/>
     <ClCompile Include="..\..\Source\ProceduralMeshGenera\CustomCamera.cpp"/>
     <ClInclude Include="..\..\Source\ProceduralMeshGenera\CustomCamera.h"/>
+    <ClCompile Include="..\..\Source\ProceduralMeshGenera\MyCharacter.cpp"/>
+    <ClInclude Include="..\..\Source\ProceduralMeshGenera\MyCharacter.h"/>
     <None Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.Build.cs"/>
     <ClCompile Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.cpp"/>
     <ClInclude Include="..\..\Source\ProceduralMeshGenera\ProceduralMeshGenera.h"/>

@@ -24,8 +24,10 @@ protected:
 	USceneComponent* player;
 	UCameraComponent* camera;
 
-	TArray<ARoom*> rooms, deactiveRooms;
+	TArray<ARoom*> activeRooms;
 	ARoom* selectedRoom;
+	int32 indexSelectedRoom;
+	bool changeRoom;
 
 	void SpawnRoom(UWorld * world, FVector position);
 
@@ -41,11 +43,27 @@ protected:
 	void AddRoom();
 	void RemoveRoom();
 
-	void ScaleRoom();
+	void SelectRoom(bool up);
+	void SelectRoomUp();
+	void SelectRoomDown();
+
+	int32 indexPivot;
+	void SelectPivot(bool up);
+	void SelectPivotUp();
+	void SelectPivotDown();
+
+	void ScaleRoom(float value);
+	void ScaleRoomNotDiscrete(float value);
+	void ScaleRoomUp();
+	void ScaleRoomDown();
+	float scaleValue;
+	bool isMouseDown;
+	FVector initialMousePos;
+	void MouseDown();
+	void MouseUp();
 
 	int32 x, y, z, distance, maxforRow;
 
-	void SelectRoom();
 
 public:	
 	// Called every frame

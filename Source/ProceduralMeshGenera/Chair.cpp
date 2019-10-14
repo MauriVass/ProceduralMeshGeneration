@@ -8,7 +8,7 @@ AChair::AChair()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	chair = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Chair"));
+	chair = CreateDefaultSubobject<USceneComponent>(TEXT("Chair"));
 	RootComponent = chair;
 }
 
@@ -17,6 +17,18 @@ int32 AChair::GetSurfaceWidth() {
 }
 int32 AChair::GetSpacing() {
 	return AChair::spacing;
+}
+
+//Destroy Actor and all attached children
+void AChair::Delete()
+{
+	TArray<USceneComponent*> c;
+	chair->GetChildrenComponents(true, c);
+	for (int32 i = 0; i < c.Num(); i++)
+	{
+		c[i]->DestroyComponent();
+	}
+	Destroy();
 }
 
 // Called when the game starts or when spawned
@@ -30,9 +42,12 @@ void AChair::BeginPlay()
 	int32 barWidth =  4;
 	int32 barHeight = 80;
 
+	//If you change this value remember to change also surfaceWidth in Table.cpp 
 	surfaceWidth = 80;
 	int32 surfaceHeight = 8;
 
+	//backRestHeight is the width of the backrest
+	//It will be rotated by 90 degrees on the small side
 	int32 backRestHeight = 6;
 	//Make the legs be near the center of the surface (DON'T SET IT TOO SMALL!)
 	float offset = 0.95f;
@@ -48,7 +63,7 @@ void AChair::BeginPlay()
 	ABoxModel::CreatePiece(GetWorld(), FVector(surfaceWidth * offset - legWidth, surfaceWidth * (1 - offset), 0), FRotator(0,0,0), legWidth, legHeight, true, "RearLeftLeg", this);
 
 	/***SURFACE FOR SEAT***/
-	//There is an hard coded float (0.95f) so the upper faces of the legs are inside the surface box 
+	//There is an hard coded float value(0.95f) so the upper faces of the legs are inside the surface box 
 	ABoxModel::CreatePiece(GetWorld(), FVector(0, 0, legHeight * 0.95f), FRotator(0,0,0), surfaceWidth, surfaceHeight, false, "Surface", this);
 
 	/***UPPER BARS***/

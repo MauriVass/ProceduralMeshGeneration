@@ -21,9 +21,12 @@ void ABoxModel::BeginPlay()
 	//Set material so that a texture can be applied
 	//Can change texture in the editor
 	box->SetMaterial(0, material);
+
+	//Time is set -1 for store the initial position of the box
+	//This is stored in the Tick function just one time
+	//The initial position is then used to animate the objects
+	time = -1;
 }
-
-
 
 void ABoxModel::AddVertex(FVector position) {
 	vertices.Add(position);
@@ -33,6 +36,69 @@ void ABoxModel::AddTriangle(int32 v1, int32 v2, int32 v3) {
 	triangles.Add(v1);
 	triangles.Add(v2);
 	triangles.Add(v3);
+}
+
+//This function updates vertices position to make possible to up/down scale the table
+//The chenge of position depends of the direction of scaling
+//0 means the edge in the left front position is moved
+//1 the right front edge is moved
+//And so on in counter clock-wise direction
+void ABoxModel::UpdateVertice(int32 side, float value) {
+	switch (side)
+	{
+	case 0:
+		vertices[3] = vertices[3] + FVector(0, -value, 0);
+		vertices[7] = vertices[7] + FVector(0, -value, 0);
+		vertices[0] = vertices[0] + FVector(-value, -value, 0);
+		vertices[4] = vertices[4] + FVector(-value, -value, 0);
+		vertices[1] = vertices[1] + FVector(-value, 0, 0);
+		vertices[5] = vertices[5] + FVector(-value, 0, 0);
+		break;
+	case 1:
+		vertices[0] = vertices[0] + FVector(-value, 0, 0);
+		vertices[4] = vertices[4] + FVector(-value, 0, 0);
+		vertices[1] = vertices[1] + FVector(-value, value, 0);
+		vertices[5] = vertices[5] + FVector(-value, value, 0);
+		vertices[2] = vertices[2] + FVector(0, value, 0);
+		vertices[6] = vertices[6] + FVector(0, value, 0);
+		break;
+	case 2:
+		vertices[1] = vertices[1] + FVector(0, value, 0);
+		vertices[5] = vertices[5] + FVector(0, value, 0);
+		vertices[2] = vertices[2] + FVector(value, value, 0);
+		vertices[6] = vertices[6] + FVector(value, value, 0);
+		vertices[3] = vertices[3] + FVector(value, 0, 0);
+		vertices[7] = vertices[7] + FVector(value, 0, 0);
+		break;
+	case 3:
+		vertices[2] = vertices[2] + FVector(value, 0, 0);
+		vertices[6] = vertices[6] + FVector(value, 0, 0);
+		vertices[3] = vertices[3] + FVector(value, -value, 0);
+		vertices[7] = vertices[7] + FVector(value, -value, 0);
+		vertices[0] = vertices[0] + FVector(0, -value, 0);
+		vertices[4] = vertices[4] + FVector(0, -value, 0);
+		break;
+	}
+	//Update mesh with new vertices
+	box->UpdateMeshSection(0, vertices, TArray<FVector>(), TArray<FVector2D>(), TArray<FColor>(), TArray<FProcMeshTangent>());
+}
+
+//This function is used to moved the animated pivots according with the scale value
+void ABoxModel::TranslateInitialPosition(FVector pos)
+{
+	initialPosition += pos;
+}
+
+//Set true if the object will not be animated(legs, etc)
+void ABoxModel::SetShouldAnimate(bool value)
+{
+	shouldAnimate = value;
+}
+
+//Set true if the object(pivot) must perform an animation
+void ABoxModel::Animate(bool value)
+{
+	enableAnimation = value;
 }
 
 void ABoxModel::GenerateBox(int32 width, int32 height, bool leg) {
@@ -74,7 +140,7 @@ void ABoxModel::GenerateBox(int32 width, int32 height, bool leg) {
 	AddTriangle(0, 3, 2);
 	AddTriangle(2, 1, 0);
 
-	//If the shape is a leg it doesn't need the upper face since it is not visible from the 'player'
+	//If the shape is a leg it doesn't need the upper face since it is not visible by the 'player'
 	if (!leg)
 	{
 		//Up Face - Counter Clock-wise
@@ -86,8 +152,8 @@ void ABoxModel::GenerateBox(int32 width, int32 height, bool leg) {
 	box->CreateMeshSection_LinearColor(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), TArray<FLinearColor>(), TArray<FProcMeshTangent>(), false);
 }
 
-void ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 height, bool isLeg, FString name, AActor* actorParent) {
-	//Store memory for one table shape
+ABoxModel* ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 height, bool isLeg, FString name, AActor* actorParent) {
+	//Store memory for one box shape
 	ABoxModel* tmp = world->SpawnActor<ABoxModel>();
 	//Set the actor(this) as a parent
 	tmp->AttachToActor(actorParent, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
@@ -97,12 +163,41 @@ void ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rotation, 
 	tmp->GenerateBox(width, height, isLeg);
 	//Change name according with the position it will occupy
 	tmp->SetActorLabel(name);
+	return tmp;
 }
 
 
 // Called every frame
 void ABoxModel::Tick(float DeltaTime)
 {
-	//Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime);
+
+	if (time==-1)
+	{
+		time = 0;
+		initialPosition = GetActorLocation();
+	}
+
+	//If an object is not animated(legs, etc) shouldAnimate must be false
+	//For other animated objects(pivots) shouldAnimate must be true
+	if (shouldAnimate)
+	{
+		//enableAnimation is set true or false during choosing which pivot should start the scaling process
+		if (enableAnimation)
+		{
+			//Range rappresent the max distance from the initial point
+			int32 range = 50;
+			time += DeltaTime;
+			//Sine function to animate the pivots
+			FVector nextPos = initialPosition + FVector(0, 0, range*FMath::Sin(1.5f*time));
+			SetActorLocation(nextPos);
+		}
+		else {
+			//When the pivot is deselected restore the initial position
+			SetActorLocation(initialPosition);
+			//Reset time
+			time = 0;
+		}
+	}
 }
 

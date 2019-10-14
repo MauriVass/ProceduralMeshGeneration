@@ -1,0 +1,1065 @@
+﻿Log file open, 10/13/19 17:36:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProceduralMeshGenera
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.117096
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:385][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.13-15.36.55:385][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.13-15.36.55:386][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:386][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:389][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.13-15.36.55:389][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.13-15.36.55:390][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.13-15.36.55:391][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.13-15.36.55:391][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.13-15.36.55:391][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.13-15.36.55:395][  0]LogHAL: Display: Platform has ~ 8 GB [8480653312 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.13-15.36.55:395][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.13-15.36.55:395][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.13-15.36.55:395][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.13-15.36.55:396][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-15.36.55:397][  0]LogInit: Computer: DESKTOP-GQKHTM2
+[2019.10.13-15.36.55:397][  0]LogInit: User: mauri
+[2019.10.13-15.36.55:397][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.10.13-15.36.55:397][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.13-15.36.55:397][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.10.13-15.36.55:397][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.13-15.36.55:397][  0]LogMemory: Process Physical Memory: 100.37 MB used, 100.37 MB peak
+[2019.10.13-15.36.55:397][  0]LogMemory: Process Virtual Memory: 123.59 MB used, 123.59 MB peak
+[2019.10.13-15.36.55:397][  0]LogMemory: Physical Memory: 6050.65 MB used,  2037.13 MB free, 8087.78 MB total
+[2019.10.13-15.36.55:397][  0]LogMemory: Virtual Memory: 4689.91 MB used,  134213040.00 MB free, 134217728.00 MB total
+[2019.10.13-15.36.55:401][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.13-15.36.55:436][  0]LogInit: Using OS detected language (en-GB).
+[2019.10.13-15.36.55:436][  0]LogInit: Using OS detected locale (en-GB).
+[2019.10.13-15.36.55:437][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.10.13-15.36.55:665][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.13-15.36.55:722][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.13-15.36.55:722][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.13-15.36.56:092][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.13-15.36.56:092][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.13-15.36.56:131][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2019.10.13-15.36.56:131][  0]LogD3D11RHI:       996/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.13-15.36.56:150][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.10.13-15.36.56:150][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.13-15.36.56:153][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.13-15.36.56:154][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.13-15.36.56:154][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.13-15.36.56:213][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.13-15.36.56:213][  0]LogD3D11RHI:     GPU DeviceId: 0x134b (for the marketing name, search the web for "GPU Device Id")
+[2019.10.13-15.36.56:213][  0]LogWindows: EnumDisplayDevices:
+[2019.10.13-15.36.56:213][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.10.13-15.36.56:214][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.13-15.36.56:214][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.13-15.36.56:215][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.13-15.36.56:215][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2019.10.13-15.36.56:215][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.13-15.36.56:215][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.13-15.36.56:215][  0]LogRHI: Texture pool is 697 MB (70% of 996 MB)
+[2019.10.13-15.36.56:240][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.13-15.36.56:255][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.13-15.36.56:756][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.13-15.36.56:769][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.13-15.36.56:781][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.13-15.36.56:793][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.13-15.36.56:806][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.13-15.36.56:818][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.13-15.36.56:830][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.13-15.36.56:846][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.13-15.36.56:853][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.13-15.36.56:898][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.13-15.36.56:899][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.13-15.36.56:901][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.13-15.36.56:925][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.13-15.36.56:925][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.13-15.36.56:944][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.13-15.36.56:944][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.13-15.36.56:955][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.13-15.36.56:964][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.13-15.36.56:974][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.13-15.36.56:984][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.13-15.36.57:019][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.13-15.36.57:019][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.13-15.36.57:019][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.13-15.36.57:032][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.13-15.36.57:106][  0]LogShaderCompilers: Guid format shader working directory is -70 characters bigger than the processId version (../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Intermediate/Shaders/WorkingDirectory/10300/).
+[2019.10.13-15.36.57:106][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mauri/AppData/Local/Temp/UnrealShaderWorkingDir/4E3E2A5449CDECEA2213E6A76BE73086/'.
+[2019.10.13-15.36.57:109][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.13-15.36.57:109][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.13-15.36.57:109][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.13-15.36.57:999][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.13-15.36.58:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.13-15.36.58:084][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.13-15.36.58:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.13-15.36.58:084][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.13-15.36.58:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mauri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.13-15.36.58:086][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.13-15.36.58:086][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.13-15.36.58:115][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.13-15.36.58:118][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.13-15.36.58:119][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.13-15.36.58:205][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2019.10.13-15.36.58:585][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.13-15.36.58:786][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.13-15.36.58:786][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.13-15.36.58:786][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.13-15.36.58:786][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.13-15.36.58:786][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.13-15.36.58:801][  0]LogNetVersion: ProceduralMeshGenera 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3893798423)
+[2019.10.13-15.36.59:410][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.058451 seconds
+[2019.10.13-15.36.59:418][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.13-15.36.59:418][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.13-15.36.59:418][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.13-15.37.00:725][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.13-15.37.00:728][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.13-15.37.00:813][  0]SourceControl: Source control is disabled
+[2019.10.13-15.37.00:813][  0]SourceControl: Source control is disabled
+[2019.10.13-15.37.00:815][  0]SourceControl: Source control is disabled
+[2019.10.13-15.37.00:816][  0]SourceControl: Source control is disabled
+[2019.10.13-15.37.00:929][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.13-15.37.01:106][  0]LogOcInput: OculusInput pre-init called
+[2019.10.13-15.37.01:114][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.13-15.37.01:114][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.13-15.37.01:200][  0]LogEngine: Initializing Engine...
+[2019.10.13-15.37.01:201][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.13-15.37.01:203][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.13-15.37.01:562][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.13-15.37.01:593][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.13-15.37.01:613][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-15.37.01:679][  0]LogInit: FAudioDevice initialized.
+[2019.10.13-15.37.01:679][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.13-15.37.01:784][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.13-15.37.01:788][  0]LogInit: Texture streaming: Enabled
+[2019.10.13-15.37.01:821][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.13-15.37.01:917][  0]LogInit: Transaction tracking system initialized
+[2019.10.13-15.37.01:965][  0]BlueprintLog: New page: Editor Load
+[2019.10.13-15.37.02:076][  0]LocalizationService: Localization service is disabled
+[2019.10.13-15.37.03:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/' took 0.00s
+[2019.10.13-15.37.03:234][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.13-15.37.03:235][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.13-15.37.03:488][  0]SourceControl: Source control is disabled
+[2019.10.13-15.37.03:489][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.13-15.37.03:489][  0]LightingResults: New page: Lighting Build
+[2019.10.13-15.37.03:493][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-15.37.03:493][  0]MapCheck: New page: Map Check
+[2019.10.13-15.37.03:493][  0]LightingResults: New page: Lighting Build
+[2019.10.13-15.37.03:526][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.10.13-15.37.03:547][  0]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-15.37.03:552][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.13-15.37.03:577][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.13-15.37.03:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.13-15.37.03:577][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.241ms to complete.
+[2019.10.13-15.37.03:577][  0]LogFileHelpers: Loading map 'Level2' took 0.089
+[2019.10.13-15.37.03:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.37.03:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.37.03:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.37.03:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.37.03:761][  0]LogCollectionManager: Loaded 0 collections in 0.003477 seconds
+[2019.10.13-15.37.03:771][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Collections/' took 0.00s
+[2019.10.13-15.37.03:771][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Developers/mauri/Collections/' took 0.00s
+[2019.10.13-15.37.03:771][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Collections/' took 0.00s
+[2019.10.13-15.37.03:771][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2019.10.13-15.37.03:788][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2869 classes and 682 folders.
+[2019.10.13-15.37.03:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.13-15.37.03:867][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.10.13-15.37.03:877][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.10.13-15.37.03:961][  0]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.13-15.37.03:965][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.13-15.37.03:976][  0]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.13-15.37.04:092][  0]LogRenderer: Reallocating scene render targets to support 852x320 Format 9 NumSamples 1 (Frame:1).
+[2019.10.13-15.37.04:236][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.13-15.37.04:400][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.13-15.37.04:401][  0]LogLoad: (Engine Initialization) Total time: 10.72 seconds
+[2019.10.13-15.37.04:401][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.13-15.37.04:475][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.10.13-15.37.04:504][  1]LogAssetRegistry: Asset discovery search completed in 6.3006 seconds
+[2019.10.13-15.37.04:512][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2019.10.13-15.37.04:513][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
+[2019.10.13-15.37.06:006][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-15.37.06:097][ 85]Candidate modules for hot reload:
+[2019.10.13-15.37.06:097][ 85]  ProceduralMeshGenera
+[2019.10.13-15.37.06:097][ 85]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,4060 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-15.37.06:100][ 85]Warning: Starting HotReload took  0.0s.
+[2019.10.13-15.37.24:397][371]CompilerResultsLog: New page: Compilation - 13 Oct 2019 19:37:24
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 10.5117815 seconds
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:   [1/4] CustomCamera.cpp
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:   [2/4] UE4Editor-ProceduralMeshGenera-4060.lib
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-4060.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-4060.exp
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:   [3/4] UE4Editor-ProceduralMeshGenera-4060.dll
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-4060.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-4060.suppressed.exp
+[2019.10.13-15.37.24:398][371]CompilerResultsLog:   [4/4] ProceduralMeshGeneraEditor.target
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Total time in Parallel executor: 5.10 seconds
+[2019.10.13-15.37.24:398][371]CompilerResultsLog: Total execution time: 17.95 seconds
+[2019.10.13-15.37.24:399][371]LogMainFrame: MainFrame: Module compiling took 18.305 seconds
+[2019.10.13-15.37.24:426][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.10.13-15.37.24:443][371]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.10.13-15.37.24:446][371]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-15.37.24:559][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.10.13-15.37.24:576][371]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-15.37.24:576][371]Display: HotReload took 18.5s.
+[2019.10.13-15.37.26:907][423]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-15.37.26:934][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.37.26:934][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-15.37.26:934][423]PIE: New page: PIE session: Level2 (13 Oct 2019 19:37:26)
+[2019.10.13-15.37.26:935][423]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.13-15.37.26:937][423]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-15.37.26:940][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002300s)
+[2019.10.13-15.37.26:942][423]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-15.37.26:942][423]LogPlayLevel: PIE: World Init took: (0.002018s)
+[2019.10.13-15.37.26:942][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.004967s)
+[2019.10.13-15.37.26:966][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.10.13-15.37.26:972][423]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-15.37.26:992][423]LogInit: FAudioDevice initialized.
+[2019.10.13-15.37.27:002][423]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-15.37.27:004][423]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-17.37.27
+[2019.10.13-15.37.27:004][423]LogWorld: Bringing up level for play took: 0.000663
+[2019.10.13-15.37.27:004][423]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.10.13-15.37.27:046][423]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.10.13-15.37.27:047][423]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.855
+[2019.10.13-15.37.27:047][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.37.28:229][492]LogCore: Error: Invalid input P=-nan Y=-nan R=0.000000 to FRotator::Quaternion - generated NaN output: X=nan Y=nan Z=nan W=-nan
+[2019.10.13-15.37.34:371][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-15.37.34:380][839]LogSlate: Took 0.003489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.10.13-15.37.37:772][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.10.13-15.37.43:568][358]LogTemp: Warning: Up Up: 560 down: 400
+[2019.10.13-15.37.47:084][569]LogTemp: Warning: Up Up: 720 down: 560
+[2019.10.13-15.37.47:995][624]LogTemp: Warning: S: 568 C: 248.000000 stand: 80
+[2019.10.13-15.37.48:011][625]LogTemp: Warning: S: 567 C: 248.000000 stand: 80
+[2019.10.13-15.37.48:028][626]LogTemp: Warning: S: 566 C: 248.000000 stand: 80
+[2019.10.13-15.37.48:045][627]LogTemp: Warning: S: 565 C: 248.000000 stand: 80
+[2019.10.13-15.37.48:062][628]LogTemp: Warning: S: 564 C: 248.000000 stand: 80
+[2019.10.13-15.37.48:078][629]LogTemp: Warning: S: 563 C: 248.000000 stand: 80
+[2019.10.13-15.37.50:330][764]LogTemp: Warning: S: 562 C: 248.000000 stand: 80
+[2019.10.13-15.37.50:346][765]LogTemp: Warning: S: 561 C: 248.000000 stand: 80
+[2019.10.13-15.37.50:363][766]LogTemp: Warning: S: 560 C: 248.000000 stand: 80
+[2019.10.13-15.37.50:363][766]LogTemp: Warning: Down Up: 560 down: 400
+[2019.10.13-15.37.50:380][767]LogTemp: Warning: S: 559 C: 248.000000 stand: 80
+[2019.10.13-15.37.52:616][901]LogTemp: Warning: S: 558 C: 248.000000 stand: 80
+[2019.10.13-15.37.52:632][902]LogTemp: Warning: S: 557 C: 248.000000 stand: 80
+[2019.10.13-15.37.52:649][903]LogTemp: Warning: S: 556 C: 248.000000 stand: 80
+[2019.10.13-15.37.52:666][904]LogTemp: Warning: S: 555 C: 248.000000 stand: 80
+[2019.10.13-15.37.52:683][905]LogTemp: Warning: S: 554 C: 248.000000 stand: 80
+[2019.10.13-15.37.53:100][930]LogTemp: Warning: S: 553 C: 248.000000 stand: 80
+[2019.10.13-15.37.53:117][931]LogTemp: Warning: S: 552 C: 248.000000 stand: 80
+[2019.10.13-15.37.53:133][932]LogTemp: Warning: S: 551 C: 248.000000 stand: 80
+[2019.10.13-15.37.53:150][933]LogTemp: Warning: S: 550 C: 248.000000 stand: 80
+[2019.10.13-15.37.53:166][934]LogTemp: Warning: S: 549 C: 248.000000 stand: 80
+[2019.10.13-15.37.55:954][ 99]LogTemp: Warning: S: 548 C: 248.000000 stand: 80
+[2019.10.13-15.37.55:971][100]LogTemp: Warning: S: 547 C: 248.000000 stand: 80
+[2019.10.13-15.37.55:988][101]LogTemp: Warning: S: 546 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:004][102]LogTemp: Warning: S: 545 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:021][103]LogTemp: Warning: S: 544 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:038][104]LogTemp: Warning: S: 543 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:405][126]LogTemp: Warning: S: 542 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:421][127]LogTemp: Warning: S: 541 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:438][128]LogTemp: Warning: S: 540 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:455][129]LogTemp: Warning: S: 539 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:471][130]LogTemp: Warning: S: 538 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:738][146]LogTemp: Warning: S: 537 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:755][147]LogTemp: Warning: S: 536 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:771][148]LogTemp: Warning: S: 535 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:788][149]LogTemp: Warning: S: 534 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:805][150]LogTemp: Warning: S: 533 C: 248.000000 stand: 80
+[2019.10.13-15.37.56:821][151]LogTemp: Warning: S: 532 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:055][165]LogTemp: Warning: S: 531 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:071][166]LogTemp: Warning: S: 530 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:088][167]LogTemp: Warning: S: 529 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:105][168]LogTemp: Warning: S: 528 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:121][169]LogTemp: Warning: S: 527 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:138][170]LogTemp: Warning: S: 526 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:155][171]LogTemp: Warning: S: 525 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:171][172]LogTemp: Warning: S: 524 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:372][184]LogTemp: Warning: S: 523 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:389][185]LogTemp: Warning: S: 522 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:405][186]LogTemp: Warning: S: 521 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:421][187]LogTemp: Warning: S: 520 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:439][188]LogTemp: Warning: S: 519 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:455][189]LogTemp: Warning: S: 518 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:471][190]LogTemp: Warning: S: 517 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:489][191]LogTemp: Warning: S: 516 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:505][192]LogTemp: Warning: S: 515 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:689][203]LogTemp: Warning: S: 514 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:705][204]LogTemp: Warning: S: 513 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:722][205]LogTemp: Warning: S: 512 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:739][206]LogTemp: Warning: S: 511 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:755][207]LogTemp: Warning: S: 510 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:772][208]LogTemp: Warning: S: 509 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:922][217]LogTemp: Warning: S: 508 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:939][218]LogTemp: Warning: S: 507 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:955][219]LogTemp: Warning: S: 506 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:972][220]LogTemp: Warning: S: 505 C: 248.000000 stand: 80
+[2019.10.13-15.37.57:988][221]LogTemp: Warning: S: 504 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:005][222]LogTemp: Warning: S: 503 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:022][223]LogTemp: Warning: S: 502 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:039][224]LogTemp: Warning: S: 501 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:156][231]LogTemp: Warning: S: 500 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:172][232]LogTemp: Warning: S: 499 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:189][233]LogTemp: Warning: S: 498 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:205][234]LogTemp: Warning: S: 497 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:222][235]LogTemp: Warning: S: 496 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:239][236]LogTemp: Warning: S: 495 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:255][237]LogTemp: Warning: S: 494 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:372][244]LogTemp: Warning: S: 493 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:389][245]LogTemp: Warning: S: 492 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:406][246]LogTemp: Warning: S: 491 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:422][247]LogTemp: Warning: S: 490 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:439][248]LogTemp: Warning: S: 489 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:455][249]LogTemp: Warning: S: 488 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:572][256]LogTemp: Warning: S: 487 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:589][257]LogTemp: Warning: S: 486 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:605][258]LogTemp: Warning: S: 485 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:623][259]LogTemp: Warning: S: 484 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:639][260]LogTemp: Warning: S: 483 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:656][261]LogTemp: Warning: S: 482 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:757][267]LogTemp: Warning: S: 481 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:773][268]LogTemp: Warning: S: 480 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:790][269]LogTemp: Warning: S: 479 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:805][270]LogTemp: Warning: S: 478 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:822][271]LogTemp: Warning: S: 477 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:840][272]LogTemp: Warning: S: 476 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:940][278]LogTemp: Warning: S: 475 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:956][279]LogTemp: Warning: S: 474 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:973][280]LogTemp: Warning: S: 473 C: 248.000000 stand: 80
+[2019.10.13-15.37.58:990][281]LogTemp: Warning: S: 472 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:006][282]LogTemp: Warning: S: 471 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:023][283]LogTemp: Warning: S: 470 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:140][290]LogTemp: Warning: S: 469 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:156][291]LogTemp: Warning: S: 468 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:173][292]LogTemp: Warning: S: 467 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:190][293]LogTemp: Warning: S: 466 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:207][294]LogTemp: Warning: S: 465 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:324][301]LogTemp: Warning: S: 464 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:340][302]LogTemp: Warning: S: 463 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:357][303]LogTemp: Warning: S: 462 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:374][304]LogTemp: Warning: S: 461 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:390][305]LogTemp: Warning: S: 460 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:490][311]LogTemp: Warning: S: 459 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:508][312]LogTemp: Warning: S: 458 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:523][313]LogTemp: Warning: S: 457 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:540][314]LogTemp: Warning: S: 456 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:557][315]LogTemp: Warning: S: 455 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:574][316]LogTemp: Warning: S: 454 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:674][322]LogTemp: Warning: S: 453 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:690][323]LogTemp: Warning: S: 452 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:707][324]LogTemp: Warning: S: 451 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:724][325]LogTemp: Warning: S: 450 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:741][326]LogTemp: Warning: S: 449 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:757][327]LogTemp: Warning: S: 448 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:858][333]LogTemp: Warning: S: 447 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:875][334]LogTemp: Warning: S: 446 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:891][335]LogTemp: Warning: S: 445 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:907][336]LogTemp: Warning: S: 444 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:924][337]LogTemp: Warning: S: 443 C: 248.000000 stand: 80
+[2019.10.13-15.37.59:940][338]LogTemp: Warning: S: 442 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:064][345]LogTemp: Warning: S: 441 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:080][346]LogTemp: Warning: S: 440 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:096][347]LogTemp: Warning: S: 439 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:113][348]LogTemp: Warning: S: 438 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:230][355]LogTemp: Warning: S: 437 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:246][356]LogTemp: Warning: S: 436 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:263][357]LogTemp: Warning: S: 435 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:279][358]LogTemp: Warning: S: 434 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:296][359]LogTemp: Warning: S: 433 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:380][364]LogTemp: Warning: S: 432 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:396][365]LogTemp: Warning: S: 431 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:413][366]LogTemp: Warning: S: 430 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:430][367]LogTemp: Warning: S: 429 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:446][368]LogTemp: Warning: S: 428 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:463][369]LogTemp: Warning: S: 427 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:479][370]LogTemp: Warning: S: 426 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:564][375]LogTemp: Warning: S: 425 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:580][376]LogTemp: Warning: S: 424 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:596][377]LogTemp: Warning: S: 423 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:613][378]LogTemp: Warning: S: 422 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:630][379]LogTemp: Warning: S: 421 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:730][385]LogTemp: Warning: S: 420 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:746][386]LogTemp: Warning: S: 419 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:763][387]LogTemp: Warning: S: 418 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:780][388]LogTemp: Warning: S: 417 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:797][389]LogTemp: Warning: S: 416 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:913][396]LogTemp: Warning: S: 415 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:930][397]LogTemp: Warning: S: 414 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:946][398]LogTemp: Warning: S: 413 C: 248.000000 stand: 80
+[2019.10.13-15.38.00:963][399]LogTemp: Warning: S: 412 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:080][406]LogTemp: Warning: S: 411 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:097][407]LogTemp: Warning: S: 410 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:113][408]LogTemp: Warning: S: 409 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:130][409]LogTemp: Warning: S: 408 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:146][410]LogTemp: Warning: S: 407 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:230][415]LogTemp: Warning: S: 406 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:247][416]LogTemp: Warning: S: 405 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:263][417]LogTemp: Warning: S: 404 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:280][418]LogTemp: Warning: S: 403 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:296][419]LogTemp: Warning: S: 402 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:313][420]LogTemp: Warning: S: 401 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:430][427]LogTemp: Warning: S: 400 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:430][427]LogTemp: Warning: Down Up: 400 down: 240
+[2019.10.13-15.38.01:447][428]LogTemp: Warning: S: 399 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:463][429]LogTemp: Warning: S: 398 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:480][430]LogTemp: Warning: S: 397 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:496][431]LogTemp: Warning: S: 396 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:513][432]LogTemp: Warning: S: 395 C: 248.000000 stand: 80
+[2019.10.13-15.38.01:529][433]LogTemp: Warning: S: 394 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:563][555]LogTemp: Warning: S: 393 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:580][556]LogTemp: Warning: S: 392 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:597][557]LogTemp: Warning: S: 391 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:614][558]LogTemp: Warning: S: 390 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:630][559]LogTemp: Warning: S: 389 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:647][560]LogTemp: Warning: S: 388 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:663][561]LogTemp: Warning: S: 387 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:680][562]LogTemp: Warning: S: 386 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:697][563]LogTemp: Warning: S: 385 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:713][564]LogTemp: Warning: S: 384 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:730][565]LogTemp: Warning: S: 383 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:747][566]LogTemp: Warning: S: 382 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:764][567]LogTemp: Warning: S: 381 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:780][568]LogTemp: Warning: S: 380 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:797][569]LogTemp: Warning: S: 379 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:813][570]LogTemp: Warning: S: 378 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:830][571]LogTemp: Warning: S: 377 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:848][572]LogTemp: Warning: S: 376 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:864][573]LogTemp: Warning: S: 375 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:881][574]LogTemp: Warning: S: 374 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:897][575]LogTemp: Warning: S: 373 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:914][576]LogTemp: Warning: S: 372 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:931][577]LogTemp: Warning: S: 371 C: 248.000000 stand: 80
+[2019.10.13-15.38.03:947][578]LogTemp: Warning: S: 370 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:299][599]LogTemp: Warning: S: 369 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:316][600]LogTemp: Warning: S: 368 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:334][601]LogTemp: Warning: S: 367 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:350][602]LogTemp: Warning: S: 366 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:367][603]LogTemp: Warning: S: 365 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:384][604]LogTemp: Warning: S: 364 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:401][605]LogTemp: Warning: S: 363 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:418][606]LogTemp: Warning: S: 362 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:434][607]LogTemp: Warning: S: 361 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:451][608]LogTemp: Warning: S: 360 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:468][609]LogTemp: Warning: S: 359 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:484][610]LogTemp: Warning: S: 358 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:501][611]LogTemp: Warning: S: 357 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:518][612]LogTemp: Warning: S: 356 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:534][613]LogTemp: Warning: S: 355 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:551][614]LogTemp: Warning: S: 354 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:568][615]LogTemp: Warning: S: 353 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:585][616]LogTemp: Warning: S: 352 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:601][617]LogTemp: Warning: S: 351 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:618][618]LogTemp: Warning: S: 350 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:634][619]LogTemp: Warning: S: 349 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:651][620]LogTemp: Warning: S: 348 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:668][621]LogTemp: Warning: S: 347 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:685][622]LogTemp: Warning: S: 346 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:701][623]LogTemp: Warning: S: 345 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:718][624]LogTemp: Warning: S: 344 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:735][625]LogTemp: Warning: S: 343 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:751][626]LogTemp: Warning: S: 342 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:768][627]LogTemp: Warning: S: 341 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:785][628]LogTemp: Warning: S: 340 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:802][629]LogTemp: Warning: S: 339 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:818][630]LogTemp: Warning: S: 338 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:835][631]LogTemp: Warning: S: 337 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:852][632]LogTemp: Warning: S: 336 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:868][633]LogTemp: Warning: S: 335 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:885][634]LogTemp: Warning: S: 334 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:902][635]LogTemp: Warning: S: 333 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:918][636]LogTemp: Warning: S: 332 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:935][637]LogTemp: Warning: S: 331 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:951][638]LogTemp: Warning: S: 330 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:968][639]LogTemp: Warning: S: 329 C: 248.000000 stand: 80
+[2019.10.13-15.38.04:985][640]LogTemp: Warning: S: 328 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:002][641]LogTemp: Warning: S: 327 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:018][642]LogTemp: Warning: S: 326 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:035][643]LogTemp: Warning: S: 325 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:052][644]LogTemp: Warning: S: 324 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:068][645]LogTemp: Warning: S: 323 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:085][646]LogTemp: Warning: S: 322 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:102][647]LogTemp: Warning: S: 321 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:118][648]LogTemp: Warning: S: 320 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:135][649]LogTemp: Warning: S: 319 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:152][650]LogTemp: Warning: S: 318 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:168][651]LogTemp: Warning: S: 317 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:469][669]LogTemp: Warning: S: 316 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:485][670]LogTemp: Warning: S: 315 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:501][671]LogTemp: Warning: S: 314 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:518][672]LogTemp: Warning: S: 313 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:535][673]LogTemp: Warning: S: 312 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:552][674]LogTemp: Warning: S: 311 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:568][675]LogTemp: Warning: S: 310 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:585][676]LogTemp: Warning: S: 309 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:601][677]LogTemp: Warning: S: 308 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:618][678]LogTemp: Warning: S: 307 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:635][679]LogTemp: Warning: S: 306 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:652][680]LogTemp: Warning: S: 305 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:668][681]LogTemp: Warning: S: 304 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:685][682]LogTemp: Warning: S: 303 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:701][683]LogTemp: Warning: S: 302 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:718][684]LogTemp: Warning: S: 301 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:735][685]LogTemp: Warning: S: 300 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:752][686]LogTemp: Warning: S: 299 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:768][687]LogTemp: Warning: S: 298 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:785][688]LogTemp: Warning: S: 297 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:802][689]LogTemp: Warning: S: 296 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:818][690]LogTemp: Warning: S: 295 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:835][691]LogTemp: Warning: S: 294 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:851][692]LogTemp: Warning: S: 293 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:868][693]LogTemp: Warning: S: 292 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:885][694]LogTemp: Warning: S: 291 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:902][695]LogTemp: Warning: S: 290 C: 248.000000 stand: 80
+[2019.10.13-15.38.05:918][696]LogTemp: Warning: S: 289 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:419][726]LogTemp: Warning: S: 288 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:435][727]LogTemp: Warning: S: 287 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:452][728]LogTemp: Warning: S: 286 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:469][729]LogTemp: Warning: S: 285 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:485][730]LogTemp: Warning: S: 284 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:502][731]LogTemp: Warning: S: 283 C: 248.000000 stand: 80
+[2019.10.13-15.38.06:519][732]LogTemp: Warning: S: 282 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:035][763]LogTemp: Warning: S: 281 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:052][764]LogTemp: Warning: S: 280 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:068][765]LogTemp: Warning: S: 279 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:085][766]LogTemp: Warning: S: 278 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:102][767]LogTemp: Warning: S: 277 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:118][768]LogTemp: Warning: S: 276 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:135][769]LogTemp: Warning: S: 275 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:902][815]LogTemp: Warning: S: 274 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:919][816]LogTemp: Warning: S: 273 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:935][817]LogTemp: Warning: S: 272 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:952][818]LogTemp: Warning: S: 271 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:969][819]LogTemp: Warning: S: 270 C: 248.000000 stand: 80
+[2019.10.13-15.38.07:985][820]LogTemp: Warning: S: 269 C: 248.000000 stand: 80
+[2019.10.13-15.38.08:502][851]LogTemp: Warning: S: 268 C: 248.000000 stand: 80
+[2019.10.13-15.38.08:519][852]LogTemp: Warning: S: 267 C: 248.000000 stand: 80
+[2019.10.13-15.38.08:536][853]LogTemp: Warning: S: 266 C: 248.000000 stand: 80
+[2019.10.13-15.38.08:552][854]LogTemp: Warning: S: 265 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:319][900]LogTemp: Warning: S: 264 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:336][901]LogTemp: Warning: S: 263 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:352][902]LogTemp: Warning: S: 262 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:369][903]LogTemp: Warning: S: 261 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:387][904]LogTemp: Warning: S: 260 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:952][938]LogTemp: Warning: S: 259 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:969][939]LogTemp: Warning: S: 258 C: 248.000000 stand: 80
+[2019.10.13-15.38.09:985][940]LogTemp: Warning: S: 257 C: 248.000000 stand: 80
+[2019.10.13-15.38.10:002][941]LogTemp: Warning: S: 256 C: 248.000000 stand: 80
+[2019.10.13-15.38.16:626][338]LogTemp: Warning: S: 255 C: 248.000000 stand: 80
+[2019.10.13-15.38.16:642][339]LogTemp: Warning: S: 254 C: 248.000000 stand: 80
+[2019.10.13-15.38.16:659][340]LogTemp: Warning: S: 253 C: 248.000000 stand: 80
+[2019.10.13-15.38.17:410][385]LogTemp: Warning: S: 252 C: 248.000000 stand: 80
+[2019.10.13-15.38.17:426][386]LogTemp: Warning: S: 251 C: 248.000000 stand: 80
+[2019.10.13-15.38.17:443][387]LogTemp: Warning: S: 250 C: 248.000000 stand: 80
+[2019.10.13-15.38.17:459][388]LogTemp: Warning: S: 249 C: 248.000000 stand: 80
+[2019.10.13-15.38.18:178][431]LogTemp: Warning: S: 248 C: 248.000000 stand: 80
+[2019.10.13-15.38.18:194][432]LogTemp: Warning: S: 247 C: 248.000000 stand: 80
+[2019.10.13-15.38.18:211][433]LogTemp: Warning: S: 246 C: 248.000000 stand: 80
+[2019.10.13-15.38.18:228][434]LogTemp: Warning: S: 245 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:113][547]LogTemp: Warning: S: 244 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:130][548]LogTemp: Warning: S: 243 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:146][549]LogTemp: Warning: S: 242 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:964][598]LogTemp: Warning: S: 241 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:981][599]LogTemp: Warning: S: 240 C: 248.000000 stand: 80
+[2019.10.13-15.38.20:997][600]LogTemp: Warning: S: 239 C: 248.000000 stand: 80
+[2019.10.13-15.38.21:014][601]LogTemp: Warning: S: 238 C: 248.000000 stand: 80
+[2019.10.13-15.38.32:631][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.38.32:631][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.38.32:631][296]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-15.38.32:632][296]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-15.38.32:645][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-15.38.32:645][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.38.32:683][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.38.32:687][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.10.13-15.38.32:731][298]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.10.13-15.42.34:857][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.13-15.42.51:123][241]Candidate modules for hot reload:
+[2019.10.13-15.42.51:123][241]  ProceduralMeshGenera
+[2019.10.13-15.42.51:123][241]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,8742 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-15.42.51:127][241]Warning: Starting HotReload took  0.0s.
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA3429F87-4FE3-A1BD-0F12-B9A564E77693%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=8c14a8a04c4413562c452698a845d580%7C9e316f0ad78c40d3bc120a308de00f14%7C51e1262a-ba39-400f-9693-7ce5bfb9c450&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: request failed, libcurl error: 0 (No error)
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12e6a8b7f70 [can pipeline])
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.3.123) port 443 (#1))
+[2019.10.13-15.43.04:399][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.13-15.43.04:400][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.13-15.43.04:400][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.13-15.43.04:400][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.13-15.43.04:400][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 7 (Closing connection 1)
+[2019.10.13-15.43.04:400][993]LogHttp: Warning: 0000012E295811C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.13-15.43.04:421][994]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA3429F87-4FE3-A1BD-0F12-B9A564E77693%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=8c14a8a04c4413562c452698a845d580%7C9e316f0ad78c40d3bc120a308de00f14%7C51e1262a-ba39-400f-9693-7ce5bfb9c450&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.13-15.43.21:487][  2]CompilerResultsLog: New page: Compilation - 13 Oct 2019 19:43:21
+[2019.10.13-15.43.21:487][  2]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 16.2346285 seconds
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:   [1/5] CustomCamera.cpp
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:   [2/5] CustomCamera.gen.cpp
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:   [3/5] UE4Editor-ProceduralMeshGenera-8742.lib
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-8742.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-8742.exp
+[2019.10.13-15.43.21:488][  2]CompilerResultsLog:   [4/5] UE4Editor-ProceduralMeshGenera-8742.dll
+[2019.10.13-15.43.21:489][  2]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-8742.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-8742.suppressed.exp
+[2019.10.13-15.43.21:489][  2]CompilerResultsLog:   [5/5] ProceduralMeshGeneraEditor.target
+[2019.10.13-15.43.21:489][  2]CompilerResultsLog: Total time in Parallel executor: 10.89 seconds
+[2019.10.13-15.43.21:489][  2]CompilerResultsLog: Total execution time: 30.09 seconds
+[2019.10.13-15.43.21:489][  2]LogMainFrame: MainFrame: Module compiling took 30.370 seconds
+[2019.10.13-15.43.21:530][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.10.13-15.43.21:554][  2]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2019.10.13-15.43.21:559][  2]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-15.43.21:686][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.10.13-15.43.21:714][  2]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-15.43.21:714][  2]Display: HotReload took 30.6s.
+[2019.10.13-15.43.24:750][183]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-15.43.24:774][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.43.24:774][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-15.43.24:774][183]PIE: New page: PIE session: Level2 (13 Oct 2019 19:43:24)
+[2019.10.13-15.43.24:774][183]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-15.43.24:778][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003260s)
+[2019.10.13-15.43.24:780][183]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-15.43.24:781][183]LogPlayLevel: PIE: World Init took: (0.002998s)
+[2019.10.13-15.43.24:781][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.006562s)
+[2019.10.13-15.43.24:813][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.10.13-15.43.24:823][183]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-15.43.24:849][183]LogInit: FAudioDevice initialized.
+[2019.10.13-15.43.24:861][183]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-15.43.24:863][183]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-17.43.24
+[2019.10.13-15.43.24:863][183]LogWorld: Bringing up level for play took: 0.001016
+[2019.10.13-15.43.24:864][183]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2019.10.13-15.43.24:866][183]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.675
+[2019.10.13-15.43.24:866][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.43.31:732][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.43.31:733][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.43.31:733][593]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-15.43.31:733][593]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-15.43.31:746][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-15.43.31:746][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.43.31:780][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-15.43.31:783][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2019.10.13-15.43.31:844][596]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.10.13-15.45.42:510][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.13-15.45.43:142][ 41]Candidate modules for hot reload:
+[2019.10.13-15.45.43:142][ 41]  ProceduralMeshGenera
+[2019.10.13-15.45.43:142][ 41]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,4641 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-15.45.43:147][ 41]Warning: Starting HotReload took  0.0s.
+[2019.10.13-15.46.04:768][293]CompilerResultsLog: New page: Compilation - 13 Oct 2019 19:46:04
+[2019.10.13-15.46.04:769][293]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-15.46.04:769][293]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-15.46.04:769][293]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 15.6500229 seconds
+[2019.10.13-15.46.04:769][293]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-15.46.04:769][293]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:   [1/4] CustomCamera.cpp
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:    C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Source\ProceduralMeshGenera\CustomCamera.cpp(123) : error C2059: syntax error: ';'
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:    C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Source\ProceduralMeshGenera\CustomCamera.cpp(129) : error C2059: syntax error: '}'
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:    C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Source\ProceduralMeshGenera\CustomCamera.cpp(129) : error C2143: syntax error: missing ';' before '}'
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:    C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Source\ProceduralMeshGenera\CustomCamera.cpp(131) : error C2143: syntax error: missing ';' before '{'
+[2019.10.13-15.46.04:769][293]CompilerResultsLog:    C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Source\ProceduralMeshGenera\CustomCamera.cpp(131) : error C2447: '{': missing function header (old-style formal list?)
+[2019.10.13-15.46.04:769][293]LogMainFrame: MainFrame: Module compiling took 21.631 seconds
+[2019.10.13-15.46.04:770][293]Warning: HotReload failed, recompile failed
+[2019.10.13-15.46.23:524][876]LogSlate: Window 'Message Log' being destroyed
+[2019.10.13-15.46.23:526][876]LogSlate: Window 'Message Log' being destroyed
+[2019.10.13-15.46.24:841][906]Candidate modules for hot reload:
+[2019.10.13-15.46.24:841][906]  ProceduralMeshGenera
+[2019.10.13-15.46.24:842][906]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,5603 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-15.46.24:845][906]Warning: Starting HotReload took  0.0s.
+[2019.10.13-15.46.54:752][646]CompilerResultsLog: New page: Compilation - 13 Oct 2019 19:46:54
+[2019.10.13-15.46.54:753][646]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-15.46.54:753][646]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-15.46.54:753][646]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-15.46.54:753][646]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 16.925758 seconds
+[2019.10.13-15.46.54:754][646]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-15.46.54:754][646]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:   [1/4] CustomCamera.cpp
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:   [2/4] UE4Editor-ProceduralMeshGenera-5603.lib
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-5603.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-5603.exp
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:   [3/4] UE4Editor-ProceduralMeshGenera-5603.dll
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-5603.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-5603.suppressed.exp
+[2019.10.13-15.46.54:754][646]CompilerResultsLog:   [4/4] ProceduralMeshGeneraEditor.target
+[2019.10.13-15.46.54:755][646]CompilerResultsLog: Total time in Parallel executor: 9.60 seconds
+[2019.10.13-15.46.54:755][646]CompilerResultsLog: Total execution time: 29.56 seconds
+[2019.10.13-15.46.54:755][646]LogMainFrame: MainFrame: Module compiling took 29.917 seconds
+[2019.10.13-15.46.54:794][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.13-15.46.54:819][646]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0006 seconds. Added 6 classes and 2 folders.
+[2019.10.13-15.46.54:822][646]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-15.46.54:913][646]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.10.13-15.46.54:934][646]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-15.46.54:934][646]Display: HotReload took 30.1s.
+[2019.10.13-15.46.59:194][900]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-15.46.59:218][900]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.46.59:218][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-15.46.59:219][900]PIE: New page: PIE session: Level2 (13 Oct 2019 19:46:59)
+[2019.10.13-15.46.59:219][900]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-15.46.59:222][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002948s)
+[2019.10.13-15.46.59:224][900]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-15.46.59:224][900]LogPlayLevel: PIE: World Init took: (0.002479s)
+[2019.10.13-15.46.59:225][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.005695s)
+[2019.10.13-15.46.59:258][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.10.13-15.46.59:266][900]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-15.46.59:291][900]LogInit: FAudioDevice initialized.
+[2019.10.13-15.46.59:300][900]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-15.46.59:301][900]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-17.46.59
+[2019.10.13-15.46.59:301][900]LogWorld: Bringing up level for play took: 0.000986
+[2019.10.13-15.46.59:301][900]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2019.10.13-15.46.59:304][900]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.887
+[2019.10.13-15.46.59:304][900]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-15.47.01:693][ 40]LogTemp: Warning: Up Up: 560 down: 400
+[2019.10.13-15.47.06:529][330]LogTemp: Warning: S: 482 C: 248.000000 stand: 80
+[2019.10.13-15.47.06:545][331]LogTemp: Warning: S: 401 C: 248.000000 stand: 80
+[2019.10.13-15.47.06:546][331]LogTemp: Warning: Down Up: 400 down: 240
+[2019.10.13-15.47.06:562][332]LogTemp: Warning: S: 320 C: 248.000000 stand: 80
+[2019.10.13-15.47.06:562][332]LogTemp: Warning: Down Up: 240 down: 240
+[2019.10.13-15.47.11:459][625]LogTemp: Warning: S: 239 C: -3.100000 stand: -1
+[2019.10.13-15.47.11:460][625]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.13-15.47.11:461][625]LogWindows: Windows GetLastError: Operazione completata. (0)

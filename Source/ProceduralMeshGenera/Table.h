@@ -16,14 +16,30 @@ public:
 	// Sets default values for this actor's properties
 	ATable();
 
+	ABoxModel* GetSurface();
+
 	int32 GetSurfaceWidth();
+	ABoxModel* GetCentralPivot();
+	ABoxModel* GetPivot(int index);
+	void SetObjectsPosition(int32 pivot, float value);
+	void Delete();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UStaticMeshComponent* table;
-	int32 surfaceWidth;
+	USceneComponent* table;
+
+	int32 legWidth,legHeight;
+	int32 surfaceWidth, surfaceHeight;
+
+	int32 pivotWidth;
+	float offset;
+
+	TArray<ABoxModel*> legs;
+	ABoxModel* surface;
+	ABoxModel* centralPivot;
+	TArray<ABoxModel*> pivots;
 
 public:	
 	// Called every frame

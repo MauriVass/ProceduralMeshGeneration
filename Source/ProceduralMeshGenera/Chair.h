@@ -17,12 +17,13 @@ public:
 	AChair();
 	int32 GetSurfaceWidth();
 	int32 GetSpacing();
+	void Delete();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UStaticMeshComponent* chair;
+	USceneComponent* chair;
 	int32 surfaceWidth, spacing;
 
 public:	

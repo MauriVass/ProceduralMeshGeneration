@@ -1,0 +1,896 @@
+﻿Log file open, 10/13/19 11:39:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProceduralMeshGenera
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.122516
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-8386587
+LogInit: Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.13-09.39.32:630][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.13-09.39.32:630][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:631][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.13-09.39.32:631][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.13-09.39.32:632][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:632][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.13-09.39.32:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.13-09.39.32:636][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.13-09.39.32:637][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.13-09.39.32:637][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.13-09.39.32:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.13-09.39.32:642][  0]LogHAL: Display: Platform has ~ 8 GB [8480653312 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.13-09.39.32:642][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.13-09.39.32:642][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.10.13-09.39.32:642][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Scalability.ini]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.13-09.39.32:643][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Config/Windows/Engine.ini]
+[2019.10.13-09.39.32:643][  0]LogInit: Computer: DESKTOP-GQKHTM2
+[2019.10.13-09.39.32:643][  0]LogInit: User: mauri
+[2019.10.13-09.39.32:643][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.10.13-09.39.32:643][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.13-09.39.32:644][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.10.13-09.39.32:644][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.13-09.39.32:644][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.32 MB peak
+[2019.10.13-09.39.32:644][  0]LogMemory: Process Virtual Memory: 111.55 MB used, 111.55 MB peak
+[2019.10.13-09.39.32:644][  0]LogMemory: Physical Memory: 5280.32 MB used,  2807.46 MB free, 8087.78 MB total
+[2019.10.13-09.39.32:644][  0]LogMemory: Virtual Memory: 4677.91 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.10.13-09.39.32:647][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.13-09.39.32:679][  0]LogInit: Using OS detected language (en-GB).
+[2019.10.13-09.39.32:679][  0]LogInit: Using OS detected locale (en-GB).
+[2019.10.13-09.39.32:680][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.10.13-09.39.32:900][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.13-09.39.32:947][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.13-09.39.32:947][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.13-09.39.33:234][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.13-09.39.33:234][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.13-09.39.33:273][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2019.10.13-09.39.33:273][  0]LogD3D11RHI:       996/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.13-09.39.33:284][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.10.13-09.39.33:284][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.13-09.39.33:287][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.13-09.39.33:287][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.13-09.39.33:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.13-09.39.33:336][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.13-09.39.33:336][  0]LogD3D11RHI:     GPU DeviceId: 0x134b (for the marketing name, search the web for "GPU Device Id")
+[2019.10.13-09.39.33:336][  0]LogWindows: EnumDisplayDevices:
+[2019.10.13-09.39.33:336][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.10.13-09.39.33:336][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.13-09.39.33:337][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.10.13-09.39.33:337][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.13-09.39.33:337][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2019.10.13-09.39.33:337][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.13-09.39.33:337][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.13-09.39.33:337][  0]LogRHI: Texture pool is 697 MB (70% of 996 MB)
+[2019.10.13-09.39.33:357][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.13-09.39.33:379][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.13-09.39.33:880][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.13-09.39.33:891][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.13-09.39.33:903][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.13-09.39.33:916][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.13-09.39.33:929][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.13-09.39.33:942][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.13-09.39.33:954][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.13-09.39.33:966][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.13-09.39.33:972][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.13-09.39.34:018][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.13-09.39.34:020][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.13-09.39.34:044][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.13-09.39.34:044][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.13-09.39.34:063][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.13-09.39.34:063][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.13-09.39.34:073][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.13-09.39.34:082][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.13-09.39.34:092][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.13-09.39.34:106][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.13-09.39.34:150][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.13-09.39.34:150][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.13-09.39.34:150][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.13-09.39.34:169][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.13-09.39.34:264][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Intermediate/Shaders/WorkingDirectory/7384/).
+[2019.10.13-09.39.34:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mauri/AppData/Local/Temp/UnrealShaderWorkingDir/23C360B14E6226729A9F7D945B31E71F/'.
+[2019.10.13-09.39.34:268][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.13-09.39.34:268][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.13-09.39.34:268][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.13-09.39.35:157][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.13-09.39.35:223][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.13-09.39.35:238][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.13-09.39.35:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.13-09.39.35:238][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.13-09.39.35:240][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mauri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.13-09.39.35:240][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.13-09.39.35:240][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.13-09.39.35:268][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.13-09.39.35:271][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.13-09.39.35:272][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.13-09.39.35:354][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2019.10.13-09.39.35:720][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.13-09.39.35:919][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.13-09.39.35:919][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.13-09.39.35:919][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.13-09.39.35:919][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.13-09.39.35:919][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.13-09.39.35:933][  0]LogNetVersion: ProceduralMeshGenera 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3893798423)
+[2019.10.13-09.39.36:542][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.058123 seconds
+[2019.10.13-09.39.36:549][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.13-09.39.36:549][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.13-09.39.36:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.13-09.39.37:840][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.13-09.39.37:844][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.13-09.39.37:926][  0]SourceControl: Source control is disabled
+[2019.10.13-09.39.37:926][  0]SourceControl: Source control is disabled
+[2019.10.13-09.39.37:928][  0]SourceControl: Source control is disabled
+[2019.10.13-09.39.37:929][  0]SourceControl: Source control is disabled
+[2019.10.13-09.39.38:045][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.13-09.39.38:208][  0]LogOcInput: OculusInput pre-init called
+[2019.10.13-09.39.38:217][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.13-09.39.38:217][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.13-09.39.38:305][  0]LogEngine: Initializing Engine...
+[2019.10.13-09.39.38:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.13-09.39.38:307][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.13-09.39.38:654][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.13-09.39.38:673][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.13-09.39.38:703][  0]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.39.38:768][  0]LogInit: FAudioDevice initialized.
+[2019.10.13-09.39.38:768][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.13-09.39.38:970][  0]LogDerivedDataCache: Saved boot cache 0.20s 73MB C:/Users/mauri/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.13-09.39.38:975][  0]LogInit: Texture streaming: Enabled
+[2019.10.13-09.39.39:007][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.13-09.39.39:105][  0]LogInit: Transaction tracking system initialized
+[2019.10.13-09.39.39:152][  0]BlueprintLog: New page: Editor Load
+[2019.10.13-09.39.39:270][  0]LocalizationService: Localization service is disabled
+[2019.10.13-09.39.40:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/' took 0.00s
+[2019.10.13-09.39.40:434][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.13-09.39.40:434][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.13-09.39.40:702][  0]SourceControl: Source control is disabled
+[2019.10.13-09.39.40:703][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.13-09.39.40:703][  0]LightingResults: New page: Lighting Build
+[2019.10.13-09.39.40:706][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.39.40:707][  0]MapCheck: New page: Map Check
+[2019.10.13-09.39.40:707][  0]LightingResults: New page: Lighting Build
+[2019.10.13-09.39.40:735][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.10.13-09.39.40:756][  0]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.39.40:762][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.13-09.39.40:788][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.10.13-09.39.40:788][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.13-09.39.40:788][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.218ms to complete.
+[2019.10.13-09.39.40:788][  0]LogFileHelpers: Loading map 'Level2' took 0.086
+[2019.10.13-09.39.40:952][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.39.40:966][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.39.40:977][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.39.40:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.39.40:998][  0]LogCollectionManager: Loaded 0 collections in 0.003205 seconds
+[2019.10.13-09.39.41:010][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Saved/Collections/' took 0.00s
+[2019.10.13-09.39.41:010][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Developers/mauri/Collections/' took 0.00s
+[2019.10.13-09.39.41:010][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/Content/Collections/' took 0.00s
+[2019.10.13-09.39.41:010][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.10.13-09.39.41:024][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2869 classes and 682 folders.
+[2019.10.13-09.39.41:038][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.13-09.39.41:159][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.13-09.39.41:168][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.10.13-09.39.41:247][  0]LogSlate: Took 0.000769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.13-09.39.41:251][  0]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.13-09.39.41:264][  0]LogSlate: Took 0.001160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.13-09.39.41:377][  0]LogRenderer: Reallocating scene render targets to support 852x320 Format 9 NumSamples 1 (Frame:1).
+[2019.10.13-09.39.41:515][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.13-09.39.41:678][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.10.13-09.39.41:678][  0]LogLoad: (Engine Initialization) Total time: 10.81 seconds
+[2019.10.13-09.39.41:678][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.13-09.39.41:749][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.10.13-09.39.41:780][  1]LogAssetRegistry: Asset discovery search completed in 6.4268 seconds
+[2019.10.13-09.39.41:784][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2019.10.13-09.39.41:785][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000153 seconds (updated 0 objects)
+[2019.10.13-09.39.49:848][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.39.50:070][347]Candidate modules for hot reload:
+[2019.10.13-09.39.50:070][347]  ProceduralMeshGenera
+[2019.10.13-09.39.50:071][347]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,19 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-09.39.50:073][347]Warning: Starting HotReload took  0.0s.
+[2019.10.13-09.40.14:216][742]CompilerResultsLog: New page: Compilation - 13 Oct 2019 13:40:14
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 16.523758 seconds
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Building 3 actions with 4 processes...
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:   [1/3] UE4Editor-ProceduralMeshGenera-0019.lib
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-0019.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-0019.exp
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:   [2/3] UE4Editor-ProceduralMeshGenera-0019.dll
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-0019.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-0019.suppressed.exp
+[2019.10.13-09.40.14:217][742]CompilerResultsLog:   [3/3] ProceduralMeshGeneraEditor.target
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Total time in Parallel executor: 4.48 seconds
+[2019.10.13-09.40.14:217][742]CompilerResultsLog: Total execution time: 23.91 seconds
+[2019.10.13-09.40.14:218][742]LogMainFrame: MainFrame: Module compiling took 24.150 seconds
+[2019.10.13-09.40.14:257][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.10.13-09.40.14:277][742]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-09.40.14:277][742]Display: HotReload took 24.2s.
+[2019.10.13-09.40.25:996][445]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.40.26:022][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.40.26:022][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.40.26:022][445]PIE: New page: PIE session: Level2 (13 Oct 2019 13:40:26)
+[2019.10.13-09.40.26:023][445]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.13-09.40.26:025][445]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.40.26:028][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002780s)
+[2019.10.13-09.40.26:030][445]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.40.26:030][445]LogPlayLevel: PIE: World Init took: (0.002405s)
+[2019.10.13-09.40.26:030][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.005739s)
+[2019.10.13-09.40.26:063][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.10.13-09.40.26:074][445]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.40.26:101][445]LogInit: FAudioDevice initialized.
+[2019.10.13-09.40.26:114][445]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.40.26:116][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.40.26
+[2019.10.13-09.40.26:117][445]LogWorld: Bringing up level for play took: 0.001231
+[2019.10.13-09.40.26:117][445]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.10.13-09.40.26:165][445]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.10.13-09.40.26:166][445]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.338
+[2019.10.13-09.40.26:166][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.40.27:558][527]LogCore: Error: Invalid input P=-nan Y=-nan R=0.000000 to FRotator::Quaternion - generated NaN output: X=nan Y=nan Z=nan W=-nan
+[2019.10.13-09.40.28:892][607]LogTemp: Warning: Up: 400 Down: 160 Actual: 320
+[2019.10.13-09.40.29:376][636]LogTemp: Warning: Up: 400 Down: 160 Actual: 400
+[2019.10.13-09.40.29:859][665]LogTemp: Warning: Up: 560 Down: 480 Actual: 480
+[2019.10.13-09.40.30:192][685]LogTemp: Warning: Up: 560 Down: 480 Actual: 560
+[2019.10.13-09.40.32:092][799]LogTemp: Warning: Up: 720 Down: 640 Actual: 640
+[2019.10.13-09.40.32:409][818]LogTemp: Warning: Up: 720 Down: 640 Actual: 720
+[2019.10.13-09.40.37:126][100]LogTemp: Warning: Up: 880 Down: 800 Actual: 640
+[2019.10.13-09.40.37:126][100]LogTemp: Warning: i=12 i<16
+[2019.10.13-09.40.41:611][369]LogTemp: Warning: Up: 640 Down: 560 Actual: 560
+[2019.10.13-09.40.41:611][369]LogTemp: Warning: i=10 i<14
+[2019.10.13-09.40.42:345][413]LogTemp: Warning: Up: 400 Down: 320 Actual: 480
+[2019.10.13-09.40.42:878][445]LogTemp: Warning: Up: 400 Down: 320 Actual: 400
+[2019.10.13-09.40.48:462][780]LogTemp: Warning: Up: 400 Down: 320 Actual: 320
+[2019.10.13-09.40.48:463][780]LogTemp: Warning: i=8 i<12
+[2019.10.13-09.40.49:279][829]LogTemp: Warning: Up: 160 Down: 80 Actual: 240
+[2019.10.13-09.40.53:982][111]LogTemp: Warning: Up: 160 Down: 80 Actual: 160
+[2019.10.13-09.40.54:533][144]LogTemp: Warning: Up: 160 Down: 80 Actual: 80
+[2019.10.13-09.40.54:533][144]LogTemp: Warning: i=6 i<10
+[2019.10.13-09.41.04:353][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.41.04:354][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.41.04:354][733]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.41.04:354][733]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.41.04:369][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-09.41.04:369][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.41.04:405][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.41.04:410][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.10.13-09.41.04:465][735]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.10.13-09.44.06:737][465]LogEditorViewport: Clicking Background
+[2019.10.13-09.44.10:074][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.44.10:311][678]Candidate modules for hot reload:
+[2019.10.13-09.44.10:311][678]  ProceduralMeshGenera
+[2019.10.13-09.44.10:311][678]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,7573 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-09.44.10:315][678]Warning: Starting HotReload took  0.0s.
+[2019.10.13-09.44.37:933][291]CompilerResultsLog: New page: Compilation - 13 Oct 2019 13:44:37
+[2019.10.13-09.44.37:933][291]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-09.44.37:933][291]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-09.44.37:933][291]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-09.44.37:935][291]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 15.7800539 seconds
+[2019.10.13-09.44.37:936][291]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-09.44.37:936][291]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:   [1/5] CustomCamera.cpp
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:   [2/5] Room.cpp
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:   [3/5] UE4Editor-ProceduralMeshGenera-7573.lib
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7573.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7573.exp
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:   [4/5] UE4Editor-ProceduralMeshGenera-7573.dll
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7573.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7573.suppressed.exp
+[2019.10.13-09.44.37:936][291]CompilerResultsLog:   [5/5] ProceduralMeshGeneraEditor.target
+[2019.10.13-09.44.37:936][291]CompilerResultsLog: Total time in Parallel executor: 8.58 seconds
+[2019.10.13-09.44.37:936][291]CompilerResultsLog: Total execution time: 27.32 seconds
+[2019.10.13-09.44.37:937][291]LogMainFrame: MainFrame: Module compiling took 27.629 seconds
+[2019.10.13-09.44.37:981][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.10.13-09.44.38:003][291]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.10.13-09.44.38:005][291]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-09.44.38:100][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.10.13-09.44.38:125][291]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-09.44.38:125][291]Display: HotReload took 27.8s.
+[2019.10.13-09.44.52:330][143]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.44.52:355][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.44.52:355][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.44.52:355][143]PIE: New page: PIE session: Level2 (13 Oct 2019 13:44:52)
+[2019.10.13-09.44.52:355][143]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.44.52:358][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002697s)
+[2019.10.13-09.44.52:360][143]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.44.52:361][143]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2019.10.13-09.44.52:361][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.005279s)
+[2019.10.13-09.44.52:387][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2019.10.13-09.44.52:396][143]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.44.52:422][143]LogInit: FAudioDevice initialized.
+[2019.10.13-09.44.52:433][143]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.44.52:434][143]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.44.52
+[2019.10.13-09.44.52:435][143]LogWorld: Bringing up level for play took: 0.000873
+[2019.10.13-09.44.52:435][143]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.10.13-09.44.52:438][143]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.066
+[2019.10.13-09.44.52:438][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.44.54:898][289]LogTemp: Warning: Up: 400 Down: 240 Actual: 320
+[2019.10.13-09.44.55:398][319]LogTemp: Warning: Up: 400 Down: 240 Actual: 400
+[2019.10.13-09.44.56:639][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.44.56:640][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.44.56:640][393]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.44.56:640][393]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.44.56:650][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-09.44.56:651][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.44.56:694][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.44.56:699][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.10.13-09.44.56:753][395]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.10.13-09.44.57:605][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.44.57:612][446]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.10.13-09.45.05:210][848]LogEditorViewport: Clicking Background
+[2019.10.13-09.45.06:064][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.45.06:281][912]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.45.06:300][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.45.06:300][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.45.06:300][912]PIE: New page: PIE session: Level2 (13 Oct 2019 13:45:06)
+[2019.10.13-09.45.06:300][912]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.45.06:302][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002228s)
+[2019.10.13-09.45.06:304][912]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.45.06:305][912]LogPlayLevel: PIE: World Init took: (0.002216s)
+[2019.10.13-09.45.06:305][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.004750s)
+[2019.10.13-09.45.06:335][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.10.13-09.45.06:343][912]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.45.06:368][912]LogInit: FAudioDevice initialized.
+[2019.10.13-09.45.06:381][912]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.45.06:382][912]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.45.06
+[2019.10.13-09.45.06:382][912]LogWorld: Bringing up level for play took: 0.000676
+[2019.10.13-09.45.06:382][912]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.10.13-09.45.06:385][912]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.119
+[2019.10.13-09.45.06:385][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.45.08:097][ 13]LogTemp: Warning: Up: 400 Down: 240 Actual: 320
+[2019.10.13-09.45.08:897][ 61]LogTemp: Warning: Up: 400 Down: 240 Actual: 400
+[2019.10.13-09.45.10:917][182]LogTemp: Warning: Up: 560 Down: 480 Actual: 480
+[2019.10.13-09.45.11:218][200]LogTemp: Warning: Up: 560 Down: 480 Actual: 560
+[2019.10.13-09.45.15:571][461]LogTemp: Warning: Up: 720 Down: 640 Actual: 480
+[2019.10.13-09.45.15:571][461]LogTemp: Warning: i=8 i<12
+[2019.10.13-09.45.15:571][461]LogTemp: Warning: i=8 removed: Chair9
+[2019.10.13-09.45.15:571][461]LogTemp: Warning: i=9 removed: Chair11
+[2019.10.13-09.45.41:816][ 34]LogHttp: Warning: 0000021E3D184A40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB861CAE1-4E2F-CC88-ABCD-C1A520CE8B38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=8c14a8a04c4413562c452698a845d580%7C9e316f0ad78c40d3bc120a308de00f14%7C51e1262a-ba39-400f-9693-7ce5bfb9c450&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.13-09.45.41:817][ 34]LogHttp: Warning: 0000021E3D184A40: request failed, libcurl error: 0 (No error)
+[2019.10.13-09.45.41:818][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x21e73327f70 [can pipeline])
+[2019.10.13-09.45.41:818][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2019.10.13-09.45.41:818][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.102.187) port 443 (#1))
+[2019.10.13-09.45.41:818][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.13-09.45.41:819][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.13-09.45.41:819][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.13-09.45.41:819][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.13-09.45.41:819][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 7 (Closing connection 1)
+[2019.10.13-09.45.41:819][ 34]LogHttp: Warning: 0000021E3D184A40: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.13-09.45.41:820][ 34]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB861CAE1-4E2F-CC88-ABCD-C1A520CE8B38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=8c14a8a04c4413562c452698a845d580%7C9e316f0ad78c40d3bc120a308de00f14%7C51e1262a-ba39-400f-9693-7ce5bfb9c450&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.13-09.45.47:446][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.46.51:451][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.48.00:005][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.10.13-09.48.00:220][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.48.00:221][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.48.00:221][342]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.48.00:224][342]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.48.00:254][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-09.48.00:254][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.48.00:298][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.48.00:303][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.10.13-09.48.00:349][344]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.10.13-09.48.00:500][353]Cmd: SELECT NONE
+[2019.10.13-09.48.01:202][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.48.01:435][408]Candidate modules for hot reload:
+[2019.10.13-09.48.01:436][408]  ProceduralMeshGenera
+[2019.10.13-09.48.01:437][408]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,7212 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-09.48.01:440][408]Warning: Starting HotReload took  0.0s.
+[2019.10.13-09.48.28:661][978]CompilerResultsLog: New page: Compilation - 13 Oct 2019 13:48:28
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 16.2084118 seconds
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:   [1/4] Room.cpp
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:   [2/4] UE4Editor-ProceduralMeshGenera-7212.lib
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7212.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7212.exp
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:   [3/4] UE4Editor-ProceduralMeshGenera-7212.dll
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7212.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-7212.suppressed.exp
+[2019.10.13-09.48.28:662][978]CompilerResultsLog:   [4/4] ProceduralMeshGeneraEditor.target
+[2019.10.13-09.48.28:662][978]CompilerResultsLog: Total time in Parallel executor: 7.67 seconds
+[2019.10.13-09.48.28:663][978]CompilerResultsLog: Total execution time: 26.94 seconds
+[2019.10.13-09.48.28:663][978]LogMainFrame: MainFrame: Module compiling took 27.230 seconds
+[2019.10.13-09.48.28:692][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.10.13-09.48.28:714][978]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.10.13-09.48.28:718][978]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-09.48.28:815][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.10.13-09.48.28:839][978]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-09.48.28:839][978]Display: HotReload took 27.4s.
+[2019.10.13-09.48.30:080][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.48.30:106][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.48.30:107][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.48.30:107][ 51]PIE: New page: PIE session: Level2 (13 Oct 2019 13:48:30)
+[2019.10.13-09.48.30:107][ 51]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.48.30:110][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003350s)
+[2019.10.13-09.48.30:112][ 51]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.48.30:112][ 51]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2019.10.13-09.48.30:113][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.005670s)
+[2019.10.13-09.48.30:144][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.10.13-09.48.30:151][ 51]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.48.30:174][ 51]LogInit: FAudioDevice initialized.
+[2019.10.13-09.48.30:185][ 51]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.48.30:186][ 51]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.48.30
+[2019.10.13-09.48.30:186][ 51]LogWorld: Bringing up level for play took: 0.000839
+[2019.10.13-09.48.30:186][ 51]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2019.10.13-09.48.30:189][ 51]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.315
+[2019.10.13-09.48.30:189][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.48.32:659][198]LogTemp: Warning: Up: 400 Down: 240 Actual: 320
+[2019.10.13-09.48.33:275][235]LogTemp: Warning: Up: 400 Down: 240 Actual: 400
+[2019.10.13-09.48.33:925][274]LogTemp: Warning: Up: 560 Down: 480 Actual: 480
+[2019.10.13-09.48.34:544][311]LogTemp: Warning: Up: 560 Down: 480 Actual: 560
+[2019.10.13-09.48.47:539][ 90]LogTemp: Warning: Up: 720 Down: 640 Actual: 480
+[2019.10.13-09.48.47:539][ 90]LogTemp: Warning: i=8 i<12
+[2019.10.13-09.48.47:539][ 90]LogTemp: Warning: i=8 removed: Chair9
+[2019.10.13-09.48.47:539][ 90]LogTemp: Warning: i=9 removed: Chair10
+[2019.10.13-09.48.47:539][ 90]LogTemp: Warning: i=10 removed: Chair11
+[2019.10.13-09.48.47:540][ 90]LogTemp: Warning: i=11 removed: Chair12
+[2019.10.13-09.48.58:057][721]LogTemp: Warning: Up: 480 Down: 400 Actual: 400
+[2019.10.13-09.48.58:058][721]LogTemp: Warning: i=8 i<12
+[2019.10.13-09.48.58:058][721]LogTemp: Warning: i=8 removed: Chair9
+[2019.10.13-09.48.58:058][721]LogTemp: Warning: i=9 removed: Chair10
+[2019.10.13-09.48.58:058][721]LogTemp: Warning: i=10 removed: Chair11
+[2019.10.13-09.48.58:058][721]LogTemp: Warning: i=11 removed: Chair12
+[2019.10.13-09.49.00:409][862]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.49.00:410][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.49.00:410][862]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.49.00:410][862]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.49.00:424][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-09.49.00:424][862]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.49.00:459][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.49.00:462][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.10.13-09.49.00:511][864]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.10.13-09.49.01:673][928]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.13-09.49.28:090][231]Candidate modules for hot reload:
+[2019.10.13-09.49.28:090][231]  ProceduralMeshGenera
+[2019.10.13-09.49.28:091][231]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,2431 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-09.49.28:093][231]Warning: Starting HotReload took  0.0s.
+[2019.10.13-09.49.54:318][754]CompilerResultsLog: New page: Compilation - 13 Oct 2019 13:49:54
+[2019.10.13-09.49.54:319][754]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-09.49.54:319][754]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-09.49.54:319][754]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-09.49.54:319][754]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 15.4562083 seconds
+[2019.10.13-09.49.54:319][754]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-09.49.54:319][754]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-09.49.54:319][754]CompilerResultsLog:   [1/4] Room.cpp
+[2019.10.13-09.49.54:319][754]CompilerResultsLog:   [2/4] UE4Editor-ProceduralMeshGenera-2431.lib
+[2019.10.13-09.49.54:319][754]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-2431.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-2431.exp
+[2019.10.13-09.49.54:319][754]CompilerResultsLog:   [3/4] UE4Editor-ProceduralMeshGenera-2431.dll
+[2019.10.13-09.49.54:320][754]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-2431.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-2431.suppressed.exp
+[2019.10.13-09.49.54:320][754]CompilerResultsLog:   [4/4] ProceduralMeshGeneraEditor.target
+[2019.10.13-09.49.54:320][754]CompilerResultsLog: Total time in Parallel executor: 7.39 seconds
+[2019.10.13-09.49.54:320][754]CompilerResultsLog: Total execution time: 25.98 seconds
+[2019.10.13-09.49.54:320][754]LogMainFrame: MainFrame: Module compiling took 26.233 seconds
+[2019.10.13-09.49.54:354][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.10.13-09.49.54:376][754]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.10.13-09.49.54:379][754]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-09.49.54:484][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.10.13-09.49.54:505][754]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-09.49.54:506][754]Display: HotReload took 26.4s.
+[2019.10.13-09.50.00:339][102]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.50.00:365][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.50.00:365][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.50.00:365][102]PIE: New page: PIE session: Level2 (13 Oct 2019 13:50:00)
+[2019.10.13-09.50.00:365][102]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.50.00:368][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2019.10.13-09.50.00:370][102]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.50.00:371][102]LogPlayLevel: PIE: World Init took: (0.002205s)
+[2019.10.13-09.50.00:371][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.005368s)
+[2019.10.13-09.50.00:404][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.10.13-09.50.00:411][102]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.50.00:436][102]LogInit: FAudioDevice initialized.
+[2019.10.13-09.50.00:446][102]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.50.00:447][102]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.50.00
+[2019.10.13-09.50.00:447][102]LogWorld: Bringing up level for play took: 0.000743
+[2019.10.13-09.50.00:448][102]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2019.10.13-09.50.00:450][102]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.054
+[2019.10.13-09.50.00:450][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.50.02:973][250]LogTemp: Warning: Up: 400 Down: 240 Actual: 320
+[2019.10.13-09.50.03:656][291]LogTemp: Warning: Up: 400 Down: 240 Actual: 400
+[2019.10.13-09.50.06:850][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.50.08:734][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.10.13-09.50.10:209][673]LogTemp: Warning: Up: 560 Down: 480 Actual: 320
+[2019.10.13-09.50.10:209][673]LogTemp: Warning: i=4 i<8
+[2019.10.13-09.50.10:209][673]LogTemp: Warning: i=4 removed: Chair5
+[2019.10.13-09.50.10:209][673]LogTemp: Warning: i=5 removed: Chair7
+[2019.10.13-09.50.17:427][106]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.50.17:428][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.50.17:428][106]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.50.17:428][106]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2019.10.13-09.50.17:444][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.13-09.50.17:444][106]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.50.17:483][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.13-09.50.17:488][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.10.13-09.50.17:555][108]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.13-09.50.18:762][174]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.13-09.51.06:925][629]LogEditorViewport: Clicking Background
+[2019.10.13-09.51.10:730][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.13-09.51.10:815][861]Candidate modules for hot reload:
+[2019.10.13-09.51.10:815][861]  ProceduralMeshGenera
+[2019.10.13-09.51.10:816][861]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProceduralMeshGenera,6716 Win64 Development -TargetType=Editor -Project="C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject" "C:/Users/mauri/Desktop/Mauri/software_per_programmazione/progetti/UnrealEngine4/ProceduralMeshGenera/ProceduralMeshGenera.uproject"  -IgnoreJunk]
+[2019.10.13-09.51.10:819][861]Warning: Starting HotReload took  0.0s.
+[2019.10.13-09.51.36:425][363]CompilerResultsLog: New page: Compilation - 13 Oct 2019 13:51:36
+[2019.10.13-09.51.36:425][363]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera).
+[2019.10.13-09.51.36:425][363]CompilerResultsLog: Parsing headers for ProceduralMeshGeneraEditor
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\ProceduralMeshGenera.uproject" "C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\ProceduralMeshGeneraEditor\Development\ProceduralMeshGeneraEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.10.13-09.51.36:426][363]CompilerResultsLog: Reflection code generated for ProceduralMeshGeneraEditor in 15.2946112 seconds
+[2019.10.13-09.51.36:426][363]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.10.13-09.51.36:426][363]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:   [1/4] Room.cpp
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:   [2/4] UE4Editor-ProceduralMeshGenera-6716.lib
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-6716.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-6716.exp
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:   [3/4] UE4Editor-ProceduralMeshGenera-6716.dll
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:      Creating library C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-6716.suppressed.lib and object C:\Users\mauri\Desktop\Mauri\software_per_programmazione\progetti\UnrealEngine4\ProceduralMeshGenera\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshGenera\UE4Editor-ProceduralMeshGenera-6716.suppressed.exp
+[2019.10.13-09.51.36:426][363]CompilerResultsLog:   [4/4] ProceduralMeshGeneraEditor.target
+[2019.10.13-09.51.36:426][363]CompilerResultsLog: Total time in Parallel executor: 7.14 seconds
+[2019.10.13-09.51.36:426][363]CompilerResultsLog: Total execution time: 25.35 seconds
+[2019.10.13-09.51.36:426][363]LogMainFrame: MainFrame: Module compiling took 25.616 seconds
+[2019.10.13-09.51.36:461][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2019.10.13-09.51.36:483][363]LogContentBrowser: Native class hierarchy updated for 'ProceduralMeshGenera' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2019.10.13-09.51.36:485][363]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.10.13-09.51.36:605][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.10.13-09.51.36:627][363]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2870 classes and 684 folders.
+[2019.10.13-09.51.36:627][363]Display: HotReload took 25.8s.
+[2019.10.13-09.51.44:405][827]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.13-09.51.44:428][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.51.44:428][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.13-09.51.44:428][827]PIE: New page: PIE session: Level2 (13 Oct 2019 13:51:44)
+[2019.10.13-09.51.44:429][827]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2019.10.13-09.51.44:432][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003759s)
+[2019.10.13-09.51.44:435][827]LogAIModule: Creating AISystem for world Level2
+[2019.10.13-09.51.44:435][827]LogPlayLevel: PIE: World Init took: (0.002373s)
+[2019.10.13-09.51.44:435][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.006574s)
+[2019.10.13-09.51.44:468][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.10.13-09.51.44:478][827]LogInit: XAudio2 using 'Altoparlanti (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.13-09.51.44:504][827]LogInit: FAudioDevice initialized.
+[2019.10.13-09.51.44:518][827]LogLoad: Game class is 'GameModeBase'
+[2019.10.13-09.51.44:519][827]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2019.10.13-11.51.44
+[2019.10.13-09.51.44:520][827]LogWorld: Bringing up level for play took: 0.000914
+[2019.10.13-09.51.44:520][827]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.10.13-09.51.44:523][827]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.019
+[2019.10.13-09.51.44:523][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
+[2019.10.13-09.51.46:554][947]LogTemp: Warning: Up: 400 Down: 240 Actual: 160
+[2019.10.13-09.51.46:554][947]LogTemp: Warning: i=0 removed: Chair1
+[2019.10.13-09.51.46:555][947]LogTemp: Warning: i=1 removed: Chair3
+[2019.10.13-09.51.46:558][947]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.13-09.51.46:559][947]LogWindows: Windows GetLastError: Operazione completata. (0)

@@ -18,7 +18,13 @@ public:
 
 	void GenerateBox(int32 width, int32 height, bool leg = true);
 
-	static void CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 height, bool isLeg, FString name, AActor* actorParent);
+	static ABoxModel* CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 height, bool isLeg, FString name, AActor* actorParent);
+	
+	void TranslateInitialPosition(FVector pos);
+	void SetShouldAnimate(bool value);
+	void Animate(bool value);
+
+	void UpdateVertice(int32 index, float value);
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,6 +44,10 @@ protected:
 	void AddVertex(FVector position);
 
 	void AddTriangle(int32 v1, int32 v2, int32 v3);
+
+	bool enableAnimation, shouldAnimate;
+	FVector initialPosition;
+	float time;
 
 public:	
 	// Called every frame
