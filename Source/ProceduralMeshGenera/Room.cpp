@@ -14,6 +14,16 @@ ARoom::ARoom()
 	chairs = TArray<AChair*>();
 }
 
+void ARoom::SetID(int32 id)
+{
+	ARoom::id = id;
+}
+
+int32 ARoom::GetID()
+{
+	return id;
+}
+
 // Called when the game starts or when spawned
 void ARoom::BeginPlay()
 {
@@ -28,8 +38,10 @@ void ARoom::CreateRoom(UWorld* world, AActor* actorParent) {
 	//Set the actor(this) as a parent
 	table->AttachToActor(actorParent, FAttachmentTransformRules(EAttachmentRule::KeepRelative, false));
 	//Change name according with the position it will occupy
-	table->SetActorLocationAndRotation(FVector(), FRotator());
+	table->SetActorLocationAndRotation(FVector(0,0,10), FRotator());
+#if WITH_EDITOR
 	table->SetActorLabel("Table");
+#endif
 
 	CreateSetofChairs(world, actorParent);
 
@@ -109,19 +121,22 @@ void ARoom::AddChairs(int32 pivot)
 
 		int32 surface = chairs[0]->GetSurfaceWidth();
 
-		//Set the location of the new chairs
-		chairs[chairs.Num() - 4]->SetActorLocation(chairs[chairs.Num() - 8]->GetActorLocation() + FVector(0, surface * 2, 0));
-		chairs[chairs.Num() - 3]->SetActorLocation(chairs[chairs.Num() - 7]->GetActorLocation() + FVector(surface * 2, 0, 0));
-		chairs[chairs.Num() - 2]->SetActorLocation(chairs[chairs.Num() - 6]->GetActorLocation() + FVector(0, surface * 2, 0));
-		chairs[chairs.Num() - 1]->SetActorLocation(chairs[chairs.Num() - 5]->GetActorLocation() + FVector(surface * 2, 0, 0));
-		
+		if (chairs.Num() > 7)
+		{
+			//Set the location of the new chairs
+			chairs[chairs.Num() - 4]->SetActorLocation(chairs[chairs.Num() - 8]->GetActorLocation() + FVector(0, surface * 2, 0));
+			chairs[chairs.Num() - 3]->SetActorLocation(chairs[chairs.Num() - 7]->GetActorLocation() + FVector(surface * 2, 0, 0));
+			chairs[chairs.Num() - 2]->SetActorLocation(chairs[chairs.Num() - 6]->GetActorLocation() + FVector(0, surface * 2, 0));
+			chairs[chairs.Num() - 1]->SetActorLocation(chairs[chairs.Num() - 5]->GetActorLocation() + FVector(surface * 2, 0, 0));
+		}
+
 		nextUpSpawn += 2 * surface;
 		nextDownSpawn += 2 * surface;
 	}
 }
 void ARoom::RemoveChairs()
 {
-	if (table->GetSurfaceWidth() <= nextDownSpawn)
+	if (table->GetSurfaceWidth() <= nextDownSpawn && chairs.Num()>3 && table->GetSurfaceWidth() > 3.1f * chairs[0]->GetSurfaceWidth())
 	{
 		int32 surface = chairs[0]->GetSurfaceWidth();
 		int32 n = chairs.Num();
@@ -137,8 +152,8 @@ void ARoom::RemoveChairs()
 }
 
 //Create a set of 4 chairs and set the location
-//For the first set this is done with TArray<FVector> positions
-//From the second above their positions are set outside from this method
+//For the first set this is done with relative positions respect the table
+//From the second above their positions are set outside from this method (the position will be relative to the existing chairs)
 void ARoom::CreateSetofChairs(UWorld* world, AActor* actorParent) {
 	AChair* tmp;
 	TArray<FVector> positions;
@@ -157,8 +172,11 @@ void ARoom::CreateSetofChairs(UWorld* world, AActor* actorParent) {
 			FVector(tmp->GetSurfaceWidth() + tmp->GetSurfaceWidth(), -offsetChair, 0)
 		} : positions;
 		tmp->SetActorLocationAndRotation(positions[i], rotations[i]);
+		//SetActorLabel works only in the editor. It lauches an exception when you try to create .exe
+#if WITH_EDITOR
 		FString name = "Chair: " + FString::FromInt(chairs.Num() + 1);
 		tmp->SetActorLabel(*name);
+#endif
 		chairs.Add(tmp);
 	}
 }
@@ -187,6 +205,5 @@ int32 ARoom::GetChairWidth()
 void ARoom::Tick(float DeltaTime)
 {
 	//Super::Tick(DeltaTime);
-
 }
 

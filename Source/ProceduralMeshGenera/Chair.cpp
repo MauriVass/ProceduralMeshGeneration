@@ -36,6 +36,7 @@ void AChair::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//1ue length = 1cm
 	int32 legWidth = 6;
 	int32 legHeight = 70;
 
@@ -72,15 +73,11 @@ void AChair::BeginPlay()
 
 	/***BACKREST***/
 	ABoxModel::CreatePiece(GetWorld(), FVector(1.5f * barWidth + surfaceHeight,0,legHeight+barHeight/4), FRotator(90, 0, 0), surfaceWidth,backRestHeight,false,"Backrest",this);
-
-	//Seem to doesn't work
-	//this->SetPivotOffset(FVector(surfaceWidth/2,surfaceWidth/2,0));
 }
 
 // Called every frame
 void AChair::Tick(float DeltaTime)
 {
 	//Super::Tick(DeltaTime);
-
 }
 

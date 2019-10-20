@@ -11,13 +11,14 @@ ATable::ATable()
 	table = CreateDefaultSubobject<USceneComponent>(TEXT("Table"));
 	RootComponent = table;
 
+	//1ue length = 1cm
 	legWidth = 10;
 	legHeight = 100;
 	//Three times chair size
 	surfaceWidth = 240;
 	surfaceHeight = 8;
 
-	pivotWidth = legWidth * 1.5f;
+	pivotWidth = legWidth * 2.5f;
 	//Make the legs be near the center of the surface (DON'T SET IT TOO SMALL!)
 	offset = 0.95f;
 }
@@ -26,14 +27,22 @@ ABoxModel* ATable::GetSurface()
 {
 	return surface;
 }
-int32 ATable::GetSurfaceWidth() {
+float ATable::GetSurfaceWidth() {
 	return surfaceWidth;
 }
 
 
-ABoxModel* ATable::GetPivot(int index)
+//Get pivot by array index
+ABoxModel* ATable::GetPivot(int32 index)
 {
-	return pivots[index];
+	return ATable::pivots[index];
+}
+//Get index of the pivot you are looking for
+int32 ATable::GetIndex(ABoxModel * pivot)
+{
+	int32 index;
+	pivots.Find(pivot, index);
+	return index;
 }
 ABoxModel* ATable::GetCentralPivot()
 {
@@ -63,12 +72,12 @@ void ATable::BeginPlay()
 	for (int32 i = 0; i < legs.Num(); i++)
 	{
 		//Set the pivot as animated so that they can change location over time
-		pivots[i]->SetShouldAnimate(true);
+		pivots[i]->SetIsEdgePivot(true);
 	}
 
 	/***CENTRAL PIVOT***/
 	centralPivot = ABoxModel::CreatePiece(GetWorld(), FVector(surfaceWidth / 2 - pivotWidth / 2, surfaceWidth / 2 - pivotWidth / 2, legHeight * 2 + surfaceHeight), FRotator(0, 0, 0), pivotWidth, pivotWidth, false, "CentralPivot", this);
-	centralPivot->SetShouldAnimate(true);
+	centralPivot->SetIsCentralPivot(true);
 }
 
 void ATable::SetObjectsPosition(int32 pivot, float value) {
@@ -83,7 +92,7 @@ void ATable::SetObjectsPosition(int32 pivot, float value) {
 		legs[3]->SetActorLocation(legs[3]->GetActorLocation() + FVector(0, -value, 0));
 		legs[0]->SetActorLocation(legs[0]->GetActorLocation() + FVector(-value, -value, 0));
 		legs[1]->SetActorLocation(legs[1]->GetActorLocation() + FVector(-value, 0, 0));
-		centralPivot->SetActorLocation(centralPivot->GetActorLocation() + FVector(-value, -value, 0));
+		centralPivot->TranslateInitialPosition(FVector(-value/2, -value/2, 0));
 		pivots[3]->TranslateInitialPosition(FVector(0, -value, 0));
 		pivots[0]->TranslateInitialPosition(FVector(-value, -value, 0));
 		pivots[1]->TranslateInitialPosition(FVector(-value, 0, 0));
@@ -93,7 +102,7 @@ void ATable::SetObjectsPosition(int32 pivot, float value) {
 		legs[0]->SetActorLocation(legs[0]->GetActorLocation() + FVector(-value, 0, 0));
 		legs[1]->SetActorLocation(legs[1]->GetActorLocation() + FVector(-value, value, 0));
 		legs[2]->SetActorLocation(legs[2]->GetActorLocation() + FVector(0, value, 0));
-		centralPivot->SetActorLocation(centralPivot->GetActorLocation() + FVector(-value, value, 0));
+		centralPivot->TranslateInitialPosition(FVector(-value/2, value/2, 0));
 		pivots[0]->TranslateInitialPosition(FVector(-value, 0, 0));
 		pivots[1]->TranslateInitialPosition(FVector(-value, value, 0));
 		pivots[2]->TranslateInitialPosition(FVector(0, value, 0));
@@ -103,7 +112,7 @@ void ATable::SetObjectsPosition(int32 pivot, float value) {
 		legs[1]->SetActorLocation(legs[1]->GetActorLocation() + FVector(0, value, 0));
 		legs[2]->SetActorLocation(legs[2]->GetActorLocation() + FVector(value, value, 0));
 		legs[3]->SetActorLocation(legs[3]->GetActorLocation() + FVector(value, 0, 0));
-		centralPivot->SetActorLocation(centralPivot->GetActorLocation() + FVector(value, value, 0));
+		centralPivot->TranslateInitialPosition(FVector(value/2, value/2, 0));
 		pivots[1]->TranslateInitialPosition(FVector(0, value, 0));
 		pivots[2]->TranslateInitialPosition(FVector(value, value, 0));
 		pivots[3]->TranslateInitialPosition(FVector(value, 0, 0));
@@ -113,7 +122,7 @@ void ATable::SetObjectsPosition(int32 pivot, float value) {
 		legs[2]->SetActorLocation(legs[2]->GetActorLocation() + FVector(value,0,  0));
 		legs[3]->SetActorLocation(legs[3]->GetActorLocation() + FVector(value, -value, 0));
 		legs[0]->SetActorLocation(legs[0]->GetActorLocation() + FVector(0,-value,  0));
-		centralPivot->SetActorLocation(centralPivot->GetActorLocation() + FVector(value, -value, 0));
+		centralPivot->TranslateInitialPosition(FVector(value/2, -value/2, 0));
 		pivots[2]->TranslateInitialPosition(FVector(value,0,  0));
 		pivots[3]->TranslateInitialPosition(FVector(value, -value, 0));
 		pivots[0]->TranslateInitialPosition(FVector(0,-value,  0));

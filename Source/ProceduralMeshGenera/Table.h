@@ -18,9 +18,10 @@ public:
 
 	ABoxModel* GetSurface();
 
-	int32 GetSurfaceWidth();
+	float GetSurfaceWidth();
 	ABoxModel* GetCentralPivot();
-	ABoxModel* GetPivot(int index);
+	ABoxModel* GetPivot(int32 index);
+	int32 GetIndex(ABoxModel* pivot);
 	void SetObjectsPosition(int32 pivot, float value);
 	void Delete();
 
@@ -31,7 +32,9 @@ protected:
 	USceneComponent* table;
 
 	int32 legWidth,legHeight;
-	int32 surfaceWidth, surfaceHeight;
+	//This is a float value since scaling with mouse to some conversion (from float to int) problems
+	float surfaceWidth;
+	int32 surfaceHeight;
 
 	int32 pivotWidth;
 	float offset;

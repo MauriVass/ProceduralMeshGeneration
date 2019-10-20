@@ -1,5 +1,5 @@
 //Create a simple box in a procedural way
-//A box can be a parallelepided(2 equal sides and one different) or a cube(all equal sides)
+//A box can be a parallelepiped(2 equal sides and one different) or a cube(all equal sides)
 
 #include "BoxModel.h"
 
@@ -22,8 +22,8 @@ void ABoxModel::BeginPlay()
 	//Can change texture in the editor
 	box->SetMaterial(0, material);
 
-	//Time is set -1 for store the initial position of the box
-	//This is stored in the Tick function just one time
+	//Time is set -1 for store the initial position of the box.
+	//This is stored in the Tick function just one time.
 	//The initial position is then used to animate the objects
 	time = -1;
 }
@@ -39,7 +39,7 @@ void ABoxModel::AddTriangle(int32 v1, int32 v2, int32 v3) {
 }
 
 //This function updates vertices position to make possible to up/down scale the table
-//The chenge of position depends of the direction of scaling
+//The change of position depends of the direction of scaling
 //0 means the edge in the left front position is moved
 //1 the right front edge is moved
 //And so on in counter clock-wise direction
@@ -83,16 +83,32 @@ void ABoxModel::UpdateVertice(int32 side, float value) {
 	box->UpdateMeshSection(0, vertices, TArray<FVector>(), TArray<FVector2D>(), TArray<FColor>(), TArray<FProcMeshTangent>());
 }
 
+AActor* ABoxModel::GetRoom()
+{
+	return GetAttachParentActor() //here I get table or chair object
+		->GetAttachParentActor(); //here I get the room
+}
+
+
 //This function is used to moved the animated pivots according with the scale value
 void ABoxModel::TranslateInitialPosition(FVector pos)
 {
 	initialPosition += pos;
 }
 
-//Set true if the object will not be animated(legs, etc)
-void ABoxModel::SetShouldAnimate(bool value)
+bool ABoxModel::GetIsEdgePivot()
 {
-	shouldAnimate = value;
+	return isEdgePivot;
+}
+
+//Set true if the object will be animated(central and edge pivots)
+void ABoxModel::SetIsEdgePivot(bool value)
+{
+	isEdgePivot = value;
+}
+void ABoxModel::SetIsCentralPivot(bool value)
+{
+	isCentralPivot = value;
 }
 
 //Set true if the object(pivot) must perform an animation
@@ -101,10 +117,11 @@ void ABoxModel::Animate(bool value)
 	enableAnimation = value;
 }
 
-void ABoxModel::GenerateBox(int32 width, int32 height, bool leg) {
+//Create a box with square base(side length 'width') and height
+void ABoxModel::GenerateBox(int32 width, int32 heigth, bool leg) {
 	int32 w, h;
 	w = width;
-	h = height;
+	h = heigth;
 
 	//Add all the verteces of the procedural mesh
 	//Each vertex has a FVector position -> coordinate in 3D space
@@ -149,10 +166,10 @@ void ABoxModel::GenerateBox(int32 width, int32 height, bool leg) {
 	}
 
 	//Create mesh passing: an index, vertices, trinagles and other optional parameters
-	box->CreateMeshSection_LinearColor(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), TArray<FLinearColor>(), TArray<FProcMeshTangent>(), false);
+	box->CreateMeshSection(0, vertices, triangles, TArray<FVector>(), TArray<FVector2D>(), TArray<FColor>(), TArray<FProcMeshTangent>(), true);
 }
 
-ABoxModel* ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 height, bool isLeg, FString name, AActor* actorParent) {
+ABoxModel* ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rotation, int32 width, int32 heigth, bool isLeg, FString name, AActor* actorParent) {
 	//Store memory for one box shape
 	ABoxModel* tmp = world->SpawnActor<ABoxModel>();
 	//Set the actor(this) as a parent
@@ -160,9 +177,11 @@ ABoxModel* ABoxModel::CreatePiece(UWorld* world, FVector position, FRotator rota
 	//Change its position and rotation after it is attached to the parent
 	tmp->SetActorLocationAndRotation(position, rotation);
 	//Generate mesh with width and height specified and if it a leg or not
-	tmp->GenerateBox(width, height, isLeg);
+	tmp->GenerateBox(width, heigth, isLeg);
+#if WITH_EDITOR
 	//Change name according with the position it will occupy
 	tmp->SetActorLabel(name);
+#endif
 	return tmp;
 }
 
@@ -178,18 +197,16 @@ void ABoxModel::Tick(float DeltaTime)
 		initialPosition = GetActorLocation();
 	}
 
-	//If an object is not animated(legs, etc) shouldAnimate must be false
-	//For other animated objects(pivots) shouldAnimate must be true
-	if (shouldAnimate)
+	if (isCentralPivot||isEdgePivot)
 	{
 		//enableAnimation is set true or false during choosing which pivot should start the scaling process
 		if (enableAnimation)
 		{
 			//Range rappresent the max distance from the initial point
-			int32 range = 50;
+			int32 range = 60;
 			time += DeltaTime;
 			//Sine function to animate the pivots
-			FVector nextPos = initialPosition + FVector(0, 0, range*FMath::Sin(1.5f*time));
+			FVector nextPos = initialPosition + FVector(0, 0, range*FMath::Sin(2*time));
 			SetActorLocation(nextPos);
 		}
 		else {

@@ -23,7 +23,8 @@ ACustomCamera::ACustomCamera()
 
 	camera->SetupAttachment(player);
 	camera->SetRelativeRotation(FRotator(0, 0, 0));
-
+	
+	//This is -1 so that any room is selected at the beginning
 	indexSelectedRoom = -1;
 
 	//Distance between rooms
@@ -36,6 +37,12 @@ ACustomCamera::ACustomCamera()
 void ACustomCamera::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Create a player controller to enable mouse input
+	pc = Cast<APlayerController>(GetController());
+	pc->bShowMouseCursor = true;
+	pc->bEnableClickEvents = true;
+	pc->bEnableMouseOverEvents = true;
 }
 
 void ACustomCamera::SpawnRoom(UWorld* world, FVector position) {
@@ -43,9 +50,13 @@ void ACustomCamera::SpawnRoom(UWorld* world, FVector position) {
 	ARoom* room = world->SpawnActor<ARoom>();
 	//Set the position
 	room->SetActorLocation(position);
+	//Set room id
+	room->SetID(roomCounter++);
+#if WITH_EDITOR
 	//Set the name of the new room
 	FString name = FString("Room: " + FString::FromInt(activeRooms.Num()+1));
 	room->SetActorLabel(*name);
+#endif
 	//Add the new room to the rooms array
 	activeRooms.Add(room);
 }
@@ -102,7 +113,6 @@ void ACustomCamera::RemoveRoom()
 	}
 }
 
-//Scale the selected room with B/N, left mouse
 void ACustomCamera::ScaleRoom(float value) {
 	if (selectedRoom != NULL)
 	{
@@ -111,65 +121,65 @@ void ACustomCamera::ScaleRoom(float value) {
 		selectedRoom->SetChairsPosition(indexPivot, value);
 	}
 }
-//Scale up with Z, scale down with X 
+//Scale up with Z, scale down with X or left mouse
 void ACustomCamera::ScaleRoomNotDiscrete(float value)
 {
-	float v = 1;
 	if (selectedRoom != NULL)
 	{
-		if (value < 0 && selectedRoom->GetTable()->GetSurfaceWidth() > 3.1f * selectedRoom->GetChairWidth())
+		if (value < 0 && selectedRoom->GetTable()->GetSurfaceWidth() + value > 3.1f * selectedRoom->GetChairWidth())
 		{
-			/*selectedRoom->GetTable()->GetSurface()->UpdateVertice(indexPivot, value);
-			selectedRoom->GetTable()->SetObjectsPosition(indexPivot, value);
-			selectedRoom->SetChairsPosition(indexPivot, value);*/
 			ScaleRoom(value);
 			selectedRoom->RemoveChairs();
 		}
 		else if(value > 0) {
-			/*selectedRoom->GetTable()->GetSurface()->UpdateVertice(indexPivot, value);
-			selectedRoom->GetTable()->SetObjectsPosition(indexPivot, value);
-			selectedRoom->SetChairsPosition(indexPivot, value);*/
 			ScaleRoom(value);
 			selectedRoom->AddChairs(indexPivot);
 		}
 	}
 }
+//Scale the selected room with B/N
 void ACustomCamera::ScaleRoomUp()
 {
 	if (selectedRoom != NULL)
 	{
-		ScaleRoom(20);
+		ScaleRoom(10);
 		selectedRoom->AddChairs(indexPivot);
 	}
 }
 void ACustomCamera::ScaleRoomDown()
 {
-	//This if avoid to make the table too small
-	if (selectedRoom->GetTable()->GetSurfaceWidth() > 3.1f * selectedRoom->GetChairWidth())
+	int32 size = -10;
+	//This if avoids to make the table too small
+	if (selectedRoom->GetTable()->GetSurfaceWidth() + size > 3.1f * selectedRoom->GetChairWidth())
 	{
-		ScaleRoom(-20);
+		ScaleRoom(size);
 		selectedRoom->RemoveChairs();
 	}
 }
 
 void ACustomCamera::MouseDown()
 {
+	//isMouseDown is use to trace line, when you hit something isMouseDown becomes false 
+	//so that you can scale without selecting other objects using the same button
+	//canScale is used to scale
 	isMouseDown = true;
-	Cast<APlayerController>(GetController())->GetMousePosition(initialMousePos.X,initialMousePos.Y);
+	canScale = true;
+	pc->GetMousePosition(initialMousePos.X, initialMousePos.Y);
 }
 void ACustomCamera::MouseUp()
 {
 	isMouseDown = false;
+	canScale = false;
 }
 
 //Select with RIGHT and LEFT ARROW
-void ACustomCamera::SelectRoom(bool up)
+void ACustomCamera::SelectRoom(int cases)
 {
 	if (activeRooms.Num() != 0)
 	{
 		//Set pivots animation of the current room as false so they will not move anymore
-		if (indexSelectedRoom>=0 && indexSelectedRoom<activeRooms.Num())
-			activeRooms[indexSelectedRoom]->GetTable()->GetCentralPivot()->Animate(false);
+		if (selectedRoom!=NULL)
+			selectedRoom->GetTable()->GetCentralPivot()->Animate(false);
 		if (selectedRoom != NULL)
 		{
 			for (int32 i = 0; i < 4; i++)
@@ -178,35 +188,38 @@ void ACustomCamera::SelectRoom(bool up)
 			}
 		}
 		//If Up ARROW is pressed increase counter
-		//otherwise decrease it
-		if (up)
+		//otherwise decrease it (case 0)
+		if (cases==0)
 		{
 			indexSelectedRoom++;
 			if (indexSelectedRoom > activeRooms.Num() - 1)
 				indexSelectedRoom = 0;
 		}
-		else
+		else if(cases == 1) //Down Arrow
 		{
 			indexSelectedRoom--;
 			if (indexSelectedRoom < 0)
 				indexSelectedRoom = activeRooms.Num() - 1;
 		}
-		//changeRoom = true;
-		//Set animation for the central pivot as true so it will start moving
-		if (indexSelectedRoom >= 0 && indexSelectedRoom < activeRooms.Num())
-			activeRooms[indexSelectedRoom]->GetTable()->GetCentralPivot()->Animate(true);
-		//
-		selectedRoom = activeRooms[indexSelectedRoom];
-		selectedRoom->GetTable()->GetPivot(indexPivot)->Animate(true);
+		if (cases != 2) {//Mouse selection
+
+			//Set animation for the central pivot as true so it will start moving
+			if (indexSelectedRoom >= 0 && indexSelectedRoom < activeRooms.Num())
+				activeRooms[indexSelectedRoom]->GetTable()->GetCentralPivot()->Animate(true);
+
+			selectedRoom = activeRooms[indexSelectedRoom];
+			selectedPivot = selectedRoom->GetTable()->GetPivot(indexPivot);
+			selectedPivot->Animate(true);
+		}
 	}
 }
 void ACustomCamera::SelectRoomUp()
 {
-	SelectRoom(true);
+	SelectRoom(0);
 }
 void ACustomCamera::SelectRoomDown()
 {
-	SelectRoom(false);
+	SelectRoom(1);
 }
 
 //Select with UP and DOWN ARROW
@@ -215,7 +228,7 @@ void ACustomCamera::SelectPivot(bool up)
 	if (selectedRoom != NULL)
 	{
 		//Set current pivot animation as false
-		selectedRoom->GetTable()->GetPivot(indexPivot)->Animate(false);
+		selectedPivot->Animate(false);
 		//Change pivot according with key pressed
 		if (up)
 		{
@@ -228,8 +241,9 @@ void ACustomCamera::SelectPivot(bool up)
 			if (indexPivot < 0)
 				indexPivot = 4 - 1;
 		}
+		selectedPivot = selectedRoom->GetTable()->GetPivot(indexPivot);
 		//Set new current pivot animation as true
-		selectedRoom->GetTable()->GetPivot(indexPivot)->Animate(true);
+		selectedPivot->Animate(true);
 	}
 }
 void ACustomCamera::SelectPivotUp()
@@ -247,17 +261,94 @@ void ACustomCamera::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	//Move camera
-	FVector newPosition = GetActorLocation() + speed * DeltaTime * 750;
+	FVector newPosition = GetActorLocation() + //Actuall Location
+		( GetActorForwardVector() * speed.X + //Forward Direction
+		FVector::CrossProduct(GetActorUpVector(),GetActorForwardVector()) * speed.Y + //Side Direction
+		GetActorUpVector() * speed.Z //Up Direction
+			) * DeltaTime * 750; //Multiplier
+	//Set new location
 	SetActorLocation(newPosition);
 
 	//Rotate Camera
 	FRotator newRotation = GetActorRotation().Add(rotation.X,rotation.Y,0);
 	SetActorRotation(newRotation);
 
-	if (changeRoom)
+	if (isMouseDown)
 	{
-		changeRoom = false;
+		FHitResult  OutHit;
+		FVector Start = GetActorLocation();
+		FVector ForwardVector = GetActorForwardVector();
+		pc->DeprojectMousePositionToWorld(Start, ForwardVector);
+
+		//Shoot a line to select room or pivot.
+		//When left mouse button is clicked a line is throw, there are some cases:
+		//First of all the object hit must be an instance of class ABoxModel, then
+		//1)selectedRoom is NULL, it means the there is no room seleted so select the room of the hit object
+		//2)selectedRoom is not NULL, the object hit is and edge pivot and this pivot belong to the selected room, the select the pivot hit
+		//3)selectedRoom is not NULL, the object hit does not belong to the current selected room, then change the selectedRoom with the object hit
+		if (GetWorld()->LineTraceSingleByChannel(OutHit, ForwardVector * 30 + Start, ForwardVector * 3000 + Start, ECC_Visibility, FCollisionQueryParams()))
+		{
+			if (OutHit.GetActor()->GetClass()->IsChildOf(ABoxModel::StaticClass()))
+			{
+				ABoxModel* tmp = Cast<ABoxModel>(OutHit.GetActor());
+				if (selectedRoom!=NULL)
+				{
+					//The selected room is the same of the room which current object clicked belongs and
+					//The object clicked is an edgePivot (no central one)
+					if (selectedRoom->GetID() == Cast<ARoom>(tmp->GetRoom())->GetID() && tmp->GetIsEdgePivot())
+					{
+						/**Case 2**/
+						//Set current pivot animation as false
+						selectedPivot->Animate(false);
+						selectedPivot = tmp;
+						selectedRoom = Cast<ARoom>(tmp->GetRoom());
+						//Set new current pivot animation as true
+						selectedPivot->Animate(true);
+						indexPivot = selectedRoom->GetTable()->GetIndex(tmp);
+					}
+					else {
+						/**Case 3**/
+						SelectRoom(2);
+						selectedRoom = Cast<ARoom>(tmp->GetRoom());
+						selectedRoom->GetTable()->GetCentralPivot()->Animate(true);
+						indexPivot = 0;
+						selectedPivot = selectedRoom->GetTable()->GetPivot(indexPivot);
+						selectedPivot->Animate(true);
+					}
+				}
+				else {
+					/**Case 1**/
+					SelectRoom(2);
+					selectedRoom = Cast<ARoom>(tmp->GetRoom());
+					selectedRoom->GetTable()->GetCentralPivot()->Animate(true);
+					indexPivot = 0;
+					selectedPivot = selectedRoom->GetTable()->GetPivot(indexPivot);
+					selectedPivot->Animate(true);
+				}
+			}
+			isMouseDown = false;
+		}
 	}
+
+		if (selectedRoom != NULL && canScale)
+		{
+			FVector newPos;
+			pc->GetMousePosition(newPos.X, newPos.Y);
+
+			//Square root distance
+			scaleValue = FMath::Sqrt(FMath::Square(initialMousePos.X - newPos.X) + FMath::Square(initialMousePos.Y - newPos.Y));
+			//Or linear distance
+			//scaleValue = FMath::Abs(initialMousePos.Y - newPos.Y);
+
+			//Scale according with the position of the camera
+			if (indexPivot > 1)
+				scaleValue = newPos.Y > initialMousePos.Y ? -scaleValue : scaleValue;
+			else 
+				scaleValue = newPos.Y > initialMousePos.Y ? scaleValue : -scaleValue;
+
+			ScaleRoomNotDiscrete(scaleValue / 100);
+		}
+
 }
 
 // Called to bind functionality to input
@@ -294,16 +385,6 @@ void ACustomCamera::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	InputComponent->BindAction("MouseLeftClick", IE_Released, this, &ACustomCamera::MouseUp);
 	//Scale selected room with Z and X (not discrete)
 	InputComponent->BindAxis("Scale", this, &ACustomCamera::ScaleRoomNotDiscrete);
-
-	if (isMouseDown)
-	{
-		FVector newPos;
-		Cast<APlayerController>(GetController())->GetMousePosition(newPos.X, newPos.Y);
-		scaleValue = FMath::Sqrt(FMath::Sqrt(initialMousePos.X - newPos.X) + FMath::Sqrt(initialMousePos.Y - newPos.Y));
-		scaleValue = newPos.Y > initialMousePos.Y ? scaleValue : -scaleValue;
-		ScaleRoom(scaleValue);
-	}
-
-	
+	   	
 }
 

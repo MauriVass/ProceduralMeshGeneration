@@ -21,6 +21,9 @@ public:
 
 	USceneComponent* room;
 
+	void SetID(int32 id);
+	int32 GetID();
+
 	void Delete(bool value);
 	ATable* GetTable();
 	int32 GetChairWidth();
@@ -33,6 +36,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	int32 id;
 	int32 nextUpSpawn,nextDownSpawn;
 	TArray<AChair*> chairs;
 	ATable* table;

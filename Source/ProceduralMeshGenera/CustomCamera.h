@@ -23,12 +23,14 @@ protected:
 	
 	USceneComponent* player;
 	UCameraComponent* camera;
+	APlayerController* pc;
 
 	TArray<ARoom*> activeRooms;
+	int32 roomCounter;
 	ARoom* selectedRoom;
 	int32 indexSelectedRoom;
-	bool changeRoom;
-
+	ABoxModel* selectedPivot;
+	
 	void SpawnRoom(UWorld * world, FVector position);
 
 	FVector speed;
@@ -43,7 +45,7 @@ protected:
 	void AddRoom();
 	void RemoveRoom();
 
-	void SelectRoom(bool up);
+	void SelectRoom(int cases);
 	void SelectRoomUp();
 	void SelectRoomDown();
 
@@ -57,7 +59,7 @@ protected:
 	void ScaleRoomUp();
 	void ScaleRoomDown();
 	float scaleValue;
-	bool isMouseDown;
+	bool isMouseDown, canScale;
 	FVector initialMousePos;
 	void MouseDown();
 	void MouseUp();
